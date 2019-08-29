@@ -34,6 +34,9 @@
             "projectReferences": {
               "C:\\dev\\XamarinApps\\IBMVideoPOC\\IBMVideoPOC\\IBMVideoPOC\\IBMVideoPOC.csproj": {
                 "projectPath": "C:\\dev\\XamarinApps\\IBMVideoPOC\\IBMVideoPOC\\IBMVideoPOC\\IBMVideoPOC.csproj"
+              },
+              "C:\\dev\\XamarinApps\\JavaBindingExample\\JavaBindingExample\\JavaBindingExample.csproj": {
+                "projectPath": "C:\\dev\\XamarinApps\\JavaBindingExample\\JavaBindingExample\\JavaBindingExample.csproj"
               }
             }
           }
@@ -142,6 +145,17 @@
           "assetTargetFallback": true,
           "warn": true
         }
+      }
+    },
+    "C:\\dev\\XamarinApps\\JavaBindingExample\\JavaBindingExample\\JavaBindingExample.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\dev\\XamarinApps\\JavaBindingExample\\JavaBindingExample\\JavaBindingExample.csproj",
+        "projectName": "JavaBindingExample",
+        "projectPath": "C:\\dev\\XamarinApps\\JavaBindingExample\\JavaBindingExample\\JavaBindingExample.csproj"
+      },
+      "frameworks": {
+        "monoandroid90": {}
       }
     }
   }

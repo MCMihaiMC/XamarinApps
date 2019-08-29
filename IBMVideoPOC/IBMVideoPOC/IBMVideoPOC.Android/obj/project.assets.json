@@ -854,6 +854,15 @@
         "runtime": {
           "bin/placeholder/IBMVideoPOC.dll": {}
         }
+      },
+      "JavaBindingExample/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/JavaBindingExample.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/JavaBindingExample.dll": {}
+        }
       }
     }
   },
@@ -1983,11 +1992,17 @@
       "type": "project",
       "path": "../IBMVideoPOC/IBMVideoPOC.csproj",
       "msbuildProject": "../IBMVideoPOC/IBMVideoPOC.csproj"
+    },
+    "JavaBindingExample/1.0.0": {
+      "type": "project",
+      "path": "../../../JavaBindingExample/JavaBindingExample/JavaBindingExample.csproj",
+      "msbuildProject": "../../../JavaBindingExample/JavaBindingExample/JavaBindingExample.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "MonoAndroid,Version=v9.0": [
       "IBMVideoPOC >= 1.0.0",
+      "JavaBindingExample >= 1.0.0",
       "Xamarin.Android.Support.Core.Utils >= 28.0.0.1",
       "Xamarin.Android.Support.CustomTabs >= 28.0.0.1",
       "Xamarin.Android.Support.Design >= 28.0.0.1",
@@ -2033,6 +2048,9 @@
           "projectReferences": {
             "C:\\dev\\XamarinApps\\IBMVideoPOC\\IBMVideoPOC\\IBMVideoPOC\\IBMVideoPOC.csproj": {
               "projectPath": "C:\\dev\\XamarinApps\\IBMVideoPOC\\IBMVideoPOC\\IBMVideoPOC\\IBMVideoPOC.csproj"
+            },
+            "C:\\dev\\XamarinApps\\JavaBindingExample\\JavaBindingExample\\JavaBindingExample.csproj": {
+              "projectPath": "C:\\dev\\XamarinApps\\JavaBindingExample\\JavaBindingExample\\JavaBindingExample.csproj"
             }
           }
         }

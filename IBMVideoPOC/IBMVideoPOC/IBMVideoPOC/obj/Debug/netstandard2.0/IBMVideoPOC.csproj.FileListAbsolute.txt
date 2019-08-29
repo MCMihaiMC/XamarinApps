@@ -1,0 +1,14 @@
+C:\dev\XamarinApps\IBMVideoPOC\IBMVideoPOC\IBMVideoPOC\bin\Debug\netstandard2.0\IBMVideoPOC.deps.json
+C:\dev\XamarinApps\IBMVideoPOC\IBMVideoPOC\IBMVideoPOC\bin\Debug\netstandard2.0\IBMVideoPOC.dll
+C:\dev\XamarinApps\IBMVideoPOC\IBMVideoPOC\IBMVideoPOC\bin\Debug\netstandard2.0\ref\IBMVideoPOC.dll
+C:\dev\XamarinApps\IBMVideoPOC\IBMVideoPOC\IBMVideoPOC\bin\Debug\netstandard2.0\IBMVideoPOC.pdb
+C:\dev\XamarinApps\IBMVideoPOC\IBMVideoPOC\IBMVideoPOC\obj\Debug\netstandard2.0\IBMVideoPOC.csprojAssemblyReference.cache
+C:\dev\XamarinApps\IBMVideoPOC\IBMVideoPOC\IBMVideoPOC\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\dev\XamarinApps\IBMVideoPOC\IBMVideoPOC\IBMVideoPOC\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\dev\XamarinApps\IBMVideoPOC\IBMVideoPOC\IBMVideoPOC\obj\Debug\netstandard2.0\IBMVideoPOC.csproj.CoreCompileInputs.cache
+C:\dev\XamarinApps\IBMVideoPOC\IBMVideoPOC\IBMVideoPOC\obj\Debug\netstandard2.0\IBMVideoPOC.AssemblyInfoInputs.cache
+C:\dev\XamarinApps\IBMVideoPOC\IBMVideoPOC\IBMVideoPOC\obj\Debug\netstandard2.0\IBMVideoPOC.AssemblyInfo.cs
+C:\dev\XamarinApps\IBMVideoPOC\IBMVideoPOC\IBMVideoPOC\obj\Debug\netstandard2.0\XamlC.stamp
+C:\dev\XamarinApps\IBMVideoPOC\IBMVideoPOC\IBMVideoPOC\obj\Debug\netstandard2.0\IBMVideoPOC.dll
+C:\dev\XamarinApps\IBMVideoPOC\IBMVideoPOC\IBMVideoPOC\obj\Debug\netstandard2.0\ref\IBMVideoPOC.dll
+C:\dev\XamarinApps\IBMVideoPOC\IBMVideoPOC\IBMVideoPOC\obj\Debug\netstandard2.0\IBMVideoPOC.pdb

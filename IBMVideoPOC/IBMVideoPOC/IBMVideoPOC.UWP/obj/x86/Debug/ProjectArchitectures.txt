@@ -1,0 +1,1 @@
+C:\dev\XamarinApps\IBMVideoPOC\IBMVideoPOC\IBMVideoPOC.UWP\IBMVideoPOC.UWP.csproj;x86
