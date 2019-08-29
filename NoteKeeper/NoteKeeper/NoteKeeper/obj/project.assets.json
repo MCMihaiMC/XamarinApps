@@ -561,11 +561,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\dev\\NoteKeeper\\NoteKeeper\\NoteKeeper\\NoteKeeper.csproj",
+      "projectUniqueName": "C:\\dev\\XamarinApps\\NoteKeeper\\NoteKeeper\\NoteKeeper\\NoteKeeper.csproj",
       "projectName": "NoteKeeper",
-      "projectPath": "C:\\dev\\NoteKeeper\\NoteKeeper\\NoteKeeper\\NoteKeeper.csproj",
+      "projectPath": "C:\\dev\\XamarinApps\\NoteKeeper\\NoteKeeper\\NoteKeeper\\NoteKeeper.csproj",
       "packagesPath": "C:\\Users\\mihai\\.nuget\\packages\\",
-      "outputPath": "C:\\dev\\NoteKeeper\\NoteKeeper\\NoteKeeper\\obj\\",
+      "outputPath": "C:\\dev\\XamarinApps\\NoteKeeper\\NoteKeeper\\NoteKeeper\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",

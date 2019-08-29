@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\dev\\NoteKeeper\\NoteKeeper\\NoteKeeper.iOS\\NoteKeeper.iOS.csproj": {}
+    "C:\\dev\\XamarinApps\\NoteKeeper\\NoteKeeper\\NoteKeeper.iOS\\NoteKeeper.iOS.csproj": {}
   },
   "projects": {
-    "C:\\dev\\NoteKeeper\\NoteKeeper\\NoteKeeper.iOS\\NoteKeeper.iOS.csproj": {
+    "C:\\dev\\XamarinApps\\NoteKeeper\\NoteKeeper\\NoteKeeper.iOS\\NoteKeeper.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dev\\NoteKeeper\\NoteKeeper\\NoteKeeper.iOS\\NoteKeeper.iOS.csproj",
+        "projectUniqueName": "C:\\dev\\XamarinApps\\NoteKeeper\\NoteKeeper\\NoteKeeper.iOS\\NoteKeeper.iOS.csproj",
         "projectName": "NoteKeeper.iOS",
-        "projectPath": "C:\\dev\\NoteKeeper\\NoteKeeper\\NoteKeeper.iOS\\NoteKeeper.iOS.csproj",
+        "projectPath": "C:\\dev\\XamarinApps\\NoteKeeper\\NoteKeeper\\NoteKeeper.iOS\\NoteKeeper.iOS.csproj",
         "packagesPath": "C:\\Users\\mihai\\.nuget\\packages\\",
-        "outputPath": "C:\\dev\\NoteKeeper\\NoteKeeper\\NoteKeeper.iOS\\obj\\",
+        "outputPath": "C:\\dev\\XamarinApps\\NoteKeeper\\NoteKeeper\\NoteKeeper.iOS\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -32,8 +32,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "C:\\dev\\NoteKeeper\\NoteKeeper\\NoteKeeper\\NoteKeeper.csproj": {
-                "projectPath": "C:\\dev\\NoteKeeper\\NoteKeeper\\NoteKeeper\\NoteKeeper.csproj"
+              "C:\\dev\\XamarinApps\\NoteKeeper\\NoteKeeper\\NoteKeeper\\NoteKeeper.csproj": {
+                "projectPath": "C:\\dev\\XamarinApps\\NoteKeeper\\NoteKeeper\\NoteKeeper\\NoteKeeper.csproj"
               }
             }
           }
@@ -65,14 +65,14 @@
         }
       }
     },
-    "C:\\dev\\NoteKeeper\\NoteKeeper\\NoteKeeper\\NoteKeeper.csproj": {
+    "C:\\dev\\XamarinApps\\NoteKeeper\\NoteKeeper\\NoteKeeper\\NoteKeeper.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dev\\NoteKeeper\\NoteKeeper\\NoteKeeper\\NoteKeeper.csproj",
+        "projectUniqueName": "C:\\dev\\XamarinApps\\NoteKeeper\\NoteKeeper\\NoteKeeper\\NoteKeeper.csproj",
         "projectName": "NoteKeeper",
-        "projectPath": "C:\\dev\\NoteKeeper\\NoteKeeper\\NoteKeeper\\NoteKeeper.csproj",
+        "projectPath": "C:\\dev\\XamarinApps\\NoteKeeper\\NoteKeeper\\NoteKeeper\\NoteKeeper.csproj",
         "packagesPath": "C:\\Users\\mihai\\.nuget\\packages\\",
-        "outputPath": "C:\\dev\\NoteKeeper\\NoteKeeper\\NoteKeeper\\obj\\",
+        "outputPath": "C:\\dev\\XamarinApps\\NoteKeeper\\NoteKeeper\\NoteKeeper\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

@@ -2006,11 +2006,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\dev\\NoteKeeper\\NoteKeeper\\NoteKeeper.Android\\NoteKeeper.Android.csproj",
+      "projectUniqueName": "C:\\dev\\XamarinApps\\NoteKeeper\\NoteKeeper\\NoteKeeper.Android\\NoteKeeper.Android.csproj",
       "projectName": "NoteKeeper.Android",
-      "projectPath": "C:\\dev\\NoteKeeper\\NoteKeeper\\NoteKeeper.Android\\NoteKeeper.Android.csproj",
+      "projectPath": "C:\\dev\\XamarinApps\\NoteKeeper\\NoteKeeper\\NoteKeeper.Android\\NoteKeeper.Android.csproj",
       "packagesPath": "C:\\Users\\mihai\\.nuget\\packages\\",
-      "outputPath": "C:\\dev\\NoteKeeper\\NoteKeeper\\NoteKeeper.Android\\obj\\",
+      "outputPath": "C:\\dev\\XamarinApps\\NoteKeeper\\NoteKeeper\\NoteKeeper.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -2031,8 +2031,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "C:\\dev\\NoteKeeper\\NoteKeeper\\NoteKeeper\\NoteKeeper.csproj": {
-              "projectPath": "C:\\dev\\NoteKeeper\\NoteKeeper\\NoteKeeper\\NoteKeeper.csproj"
+            "C:\\dev\\XamarinApps\\NoteKeeper\\NoteKeeper\\NoteKeeper\\NoteKeeper.csproj": {
+              "projectPath": "C:\\dev\\XamarinApps\\NoteKeeper\\NoteKeeper\\NoteKeeper\\NoteKeeper.csproj"
             }
           }
         }

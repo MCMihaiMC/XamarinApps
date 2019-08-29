@@ -1,1 +1,1 @@
-C:\dev\NoteKeeper\NoteKeeper\NoteKeeper.UWP\NoteKeeper.UWP.csproj;x86
+C:\dev\XamarinApps\NoteKeeper\NoteKeeper\NoteKeeper.UWP\NoteKeeper.UWP.csproj;x86

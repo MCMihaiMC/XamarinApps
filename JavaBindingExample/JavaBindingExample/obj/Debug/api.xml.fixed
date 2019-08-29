@@ -1,0 +1,641 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<api>
+  <package name="com.google.android.gms.internal.wallet" jni-name="com/google/android/gms/internal/wallet">
+    <class abstract="false" deprecated="not deprecated" extends="android.os.Binder" extends-generic-aware="android.os.Binder" jni-extends="Landroid/os/Binder;" final="false" name="zza" static="false" visibility="public" jni-signature="Lcom/google/android/gms/internal/wallet/zza;">
+      <implements name="android.os.IInterface" name-generic-aware="android.os.IInterface" jni-type="Landroid/os/IInterface;"></implements>
+      <constructor deprecated="not deprecated" final="false" name="zza" jni-signature="(Ljava/lang/String;)V" bridge="false" static="false" type="com.google.android.gms.internal.wallet.zza" synthetic="false" visibility="protected">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="asBinder" jni-signature="()Landroid/os/IBinder;" bridge="false" native="false" return="android.os.IBinder" jni-return="Landroid/os/IBinder;" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="dispatchTransaction" jni-signature="(ILandroid/os/Parcel;Landroid/os/Parcel;I)Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="protected">
+        <parameter name="p0" type="int" jni-type="I"></parameter>
+        <parameter name="p1" type="android.os.Parcel" jni-type="Landroid/os/Parcel;"></parameter>
+        <parameter name="p2" type="android.os.Parcel" jni-type="Landroid/os/Parcel;"></parameter>
+        <parameter name="p3" type="int" jni-type="I"></parameter>
+        <exception name="RemoteException" type="android.os.RemoteException"></exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onTransact" jni-signature="(ILandroid/os/Parcel;Landroid/os/Parcel;I)Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="int" jni-type="I"></parameter>
+        <parameter name="p1" type="android.os.Parcel" jni-type="Landroid/os/Parcel;"></parameter>
+        <parameter name="p2" type="android.os.Parcel" jni-type="Landroid/os/Parcel;"></parameter>
+        <parameter name="p3" type="int" jni-type="I"></parameter>
+        <exception name="RemoteException" type="android.os.RemoteException"></exception>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="zzaa" static="false" visibility="public" jni-signature="Lcom/google/android/gms/internal/wallet/zzaa;">
+      <implements name="com.google.android.gms.wallet.wobs.WalletObjects" name-generic-aware="com.google.android.gms.wallet.wobs.WalletObjects" jni-type="Lcom/google/android/gms/wallet/wobs/WalletObjects;"></implements>
+      <constructor deprecated="not deprecated" final="false" name="zzaa" jni-signature="()V" bridge="false" static="false" type="com.google.android.gms.internal.wallet.zzaa" synthetic="false" visibility="public"></constructor>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="zzab" static="false" visibility="public" jni-signature="Lcom/google/android/gms/internal/wallet/zzab;">
+      <constructor deprecated="not deprecated" final="false" name="zzab" jni-signature="()V" bridge="false" static="false" type="com.google.android.gms.internal.wallet.zzab" synthetic="false" visibility="public"></constructor>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="zzb" static="false" visibility="public" jni-signature="Lcom/google/android/gms/internal/wallet/zzb;">
+      <implements name="android.os.IInterface" name-generic-aware="android.os.IInterface" jni-type="Landroid/os/IInterface;"></implements>
+      <constructor deprecated="not deprecated" final="false" name="zzb" jni-signature="(Landroid/os/IBinder;Ljava/lang/String;)V" bridge="false" static="false" type="com.google.android.gms.internal.wallet.zzb" synthetic="false" visibility="protected">
+        <parameter name="p0" type="android.os.IBinder" jni-type="Landroid/os/IBinder;"></parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="asBinder" jni-signature="()Landroid/os/IBinder;" bridge="false" native="false" return="android.os.IBinder" jni-return="Landroid/os/IBinder;" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="obtainAndWriteInterfaceToken" jni-signature="()Landroid/os/Parcel;" bridge="false" native="false" return="android.os.Parcel" jni-return="Landroid/os/Parcel;" static="false" synchronized="false" synthetic="false" visibility="protected"></method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="zza" jni-signature="(ILandroid/os/Parcel;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="protected">
+        <parameter name="p0" type="int" jni-type="I"></parameter>
+        <parameter name="p1" type="android.os.Parcel" jni-type="Landroid/os/Parcel;"></parameter>
+        <exception name="RemoteException" type="android.os.RemoteException"></exception>
+      </method>
+    </class>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="zzc" static="false" visibility="public" jni-signature="Lcom/google/android/gms/internal/wallet/zzc;"></interface>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="zzd" static="false" visibility="public" jni-signature="Lcom/google/android/gms/internal/wallet/zzd;">
+      <method abstract="false" deprecated="not deprecated" final="false" name="zza" jni-signature="(Landroid/os/Parcel;)Z" bridge="false" native="false" return="boolean" jni-return="Z" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.os.Parcel" jni-type="Landroid/os/Parcel;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="zza" jni-signature="(Landroid/os/Parcel;Landroid/os/IInterface;)V" bridge="false" native="false" return="void" jni-return="V" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.os.Parcel" jni-type="Landroid/os/Parcel;"></parameter>
+        <parameter name="p1" type="android.os.IInterface" jni-type="Landroid/os/IInterface;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="zza" jni-signature="(Landroid/os/Parcel;Landroid/os/Parcelable;)V" bridge="false" native="false" return="void" jni-return="V" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.os.Parcel" jni-type="Landroid/os/Parcel;"></parameter>
+        <parameter name="p1" type="android.os.Parcelable" jni-type="Landroid/os/Parcelable;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="zza" jni-signature="(Landroid/os/Parcel;Landroid/os/Parcelable$Creator;)Landroid/os/Parcelable;" bridge="false" native="false" return="T" jni-return="TT;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <typeParameters>
+          <typeParameter name="T" interfaceBounds="android.os.Parcelable" jni-interfaceBounds="Landroid/os/Parcelable;">
+            <genericConstraints>
+              <genericConstraint type="android.os.Parcelable"></genericConstraint>
+            </genericConstraints>
+          </typeParameter>
+        </typeParameters>
+        <parameter name="p0" type="android.os.Parcel" jni-type="Landroid/os/Parcel;"></parameter>
+        <parameter name="p1" type="android.os.Parcelable.Creator&lt;T&gt;" jni-type="Landroid/os/Parcelable$Creator&lt;TT;&gt;;"></parameter>
+      </method>
+    </class>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="zze" static="false" visibility="public" jni-signature="Lcom/google/android/gms/internal/wallet/zze;"></interface>
+    <class abstract="false" deprecated="not deprecated" extends="android.os.Handler" extends-generic-aware="android.os.Handler" jni-extends="Landroid/os/Handler;" final="true" name="zzf" static="false" visibility="public" jni-signature="Lcom/google/android/gms/internal/wallet/zzf;">
+      <constructor deprecated="not deprecated" final="false" name="zzf" jni-signature="()V" bridge="false" static="false" type="com.google.android.gms.internal.wallet.zzf" synthetic="false" visibility="public"></constructor>
+      <constructor deprecated="not deprecated" final="false" name="zzf" jni-signature="(Landroid/os/Looper;)V" bridge="false" static="false" type="com.google.android.gms.internal.wallet.zzf" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.os.Looper" jni-type="Landroid/os/Looper;"></parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="true" name="dispatchMessage" jni-signature="(Landroid/os/Message;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.os.Message" jni-type="Landroid/os/Message;"></parameter>
+      </method>
+    </class>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="zzh" static="false" visibility="public" jni-signature="Lcom/google/android/gms/internal/wallet/zzh;"></interface>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="zzo" static="false" visibility="public" jni-signature="Lcom/google/android/gms/internal/wallet/zzo;">
+      <implements name="android.os.IInterface" name-generic-aware="android.os.IInterface" jni-type="Landroid/os/IInterface;"></implements>
+    </interface>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="zzq" static="false" visibility="public" jni-signature="Lcom/google/android/gms/internal/wallet/zzq;">
+      <implements name="android.os.IInterface" name-generic-aware="android.os.IInterface" jni-type="Landroid/os/IInterface;"></implements>
+      <method abstract="true" deprecated="not deprecated" final="false" name="zza" jni-signature="(ILandroid/os/Bundle;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="int" jni-type="I"></parameter>
+        <parameter name="p1" type="android.os.Bundle" jni-type="Landroid/os/Bundle;"></parameter>
+        <exception name="RemoteException" type="android.os.RemoteException"></exception>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="zza" jni-signature="(IZLandroid/os/Bundle;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="int" jni-type="I"></parameter>
+        <parameter name="p1" type="boolean" jni-type="Z"></parameter>
+        <parameter name="p2" type="android.os.Bundle" jni-type="Landroid/os/Bundle;"></parameter>
+        <exception name="RemoteException" type="android.os.RemoteException"></exception>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="zzb" jni-signature="(IZLandroid/os/Bundle;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="int" jni-type="I"></parameter>
+        <parameter name="p1" type="boolean" jni-type="Z"></parameter>
+        <parameter name="p2" type="android.os.Bundle" jni-type="Landroid/os/Bundle;"></parameter>
+        <exception name="RemoteException" type="android.os.RemoteException"></exception>
+      </method>
+    </interface>
+    <class abstract="false" deprecated="not deprecated" extends="com.google.android.gms.internal.wallet.zzb" extends-generic-aware="com.google.android.gms.internal.wallet.zzb" jni-extends="Lcom/google/android/gms/internal/wallet/zzb;" final="true" name="zzr" static="false" visibility="public" jni-signature="Lcom/google/android/gms/internal/wallet/zzr;">
+      <implements name="com.google.android.gms.internal.wallet.zzo" name-generic-aware="com.google.android.gms.internal.wallet.zzo" jni-type="Lcom/google/android/gms/internal/wallet/zzo;"></implements>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="zzs" static="false" visibility="public" jni-signature="Lcom/google/android/gms/internal/wallet/zzs;">
+      <constructor deprecated="not deprecated" final="false" name="zzs" jni-signature="()V" bridge="false" static="false" type="com.google.android.gms.internal.wallet.zzs" synthetic="false" visibility="public"></constructor>
+    </class>
+    <class abstract="true" deprecated="not deprecated" extends="com.google.android.gms.internal.wallet.zza" extends-generic-aware="com.google.android.gms.internal.wallet.zza" jni-extends="Lcom/google/android/gms/internal/wallet/zza;" final="false" name="zzt" static="false" visibility="public" jni-signature="Lcom/google/android/gms/internal/wallet/zzt;">
+      <implements name="com.google.android.gms.internal.wallet.zzq" name-generic-aware="com.google.android.gms.internal.wallet.zzq" jni-type="Lcom/google/android/gms/internal/wallet/zzq;"></implements>
+      <constructor deprecated="not deprecated" final="false" name="zzt" jni-signature="()V" bridge="false" static="false" type="com.google.android.gms.internal.wallet.zzt" synthetic="false" visibility="public"></constructor>
+      <method abstract="false" deprecated="not deprecated" final="true" name="dispatchTransaction" jni-signature="(ILandroid/os/Parcel;Landroid/os/Parcel;I)Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="protected">
+        <parameter name="p0" type="int" jni-type="I"></parameter>
+        <parameter name="p1" type="android.os.Parcel" jni-type="Landroid/os/Parcel;"></parameter>
+        <parameter name="p2" type="android.os.Parcel" jni-type="Landroid/os/Parcel;"></parameter>
+        <parameter name="p3" type="int" jni-type="I"></parameter>
+        <exception name="RemoteException" type="android.os.RemoteException"></exception>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="com.google.android.gms.internal.wallet.zzx" extends-generic-aware="com.google.android.gms.internal.wallet.zzx" jni-extends="Lcom/google/android/gms/internal/wallet/zzx;" final="true" name="zzu" static="false" visibility="" jni-signature="Lcom/google/android/gms/internal/wallet/zzu;">
+      <constructor deprecated="not deprecated" final="false" name="zzu" jni-signature="(Landroid/app/Activity;I)V" bridge="false" static="false" type="com.google.android.gms.internal.wallet.zzu" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.app.Activity" jni-type="Landroid/app/Activity;"></parameter>
+        <parameter name="p1" type="int" jni-type="I"></parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="true" name="zza" jni-signature="(ILandroid/os/Bundle;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="int" jni-type="I"></parameter>
+        <parameter name="p1" type="android.os.Bundle" jni-type="Landroid/os/Bundle;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="zza" jni-signature="(IZLandroid/os/Bundle;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="int" jni-type="I"></parameter>
+        <parameter name="p1" type="boolean" jni-type="Z"></parameter>
+        <parameter name="p2" type="android.os.Bundle" jni-type="Landroid/os/Bundle;"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="com.google.android.gms.internal.wallet.zzx" extends-generic-aware="com.google.android.gms.internal.wallet.zzx" jni-extends="Lcom/google/android/gms/internal/wallet/zzx;" final="true" name="zzw" static="false" visibility="" jni-signature="Lcom/google/android/gms/internal/wallet/zzw;">
+      <method abstract="false" deprecated="not deprecated" final="true" name="zza" jni-signature="(IZLandroid/os/Bundle;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="int" jni-type="I"></parameter>
+        <parameter name="p1" type="boolean" jni-type="Z"></parameter>
+        <parameter name="p2" type="android.os.Bundle" jni-type="Landroid/os/Bundle;"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="com.google.android.gms.internal.wallet.zzt" extends-generic-aware="com.google.android.gms.internal.wallet.zzt" jni-extends="Lcom/google/android/gms/internal/wallet/zzt;" final="false" name="zzx" static="false" visibility="public" jni-signature="Lcom/google/android/gms/internal/wallet/zzx;">
+      <constructor deprecated="not deprecated" final="false" name="zzx" jni-signature="()V" bridge="false" static="false" type="com.google.android.gms.internal.wallet.zzx" synthetic="false" visibility="public"></constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="zza" jni-signature="(ILandroid/os/Bundle;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="int" jni-type="I"></parameter>
+        <parameter name="p1" type="android.os.Bundle" jni-type="Landroid/os/Bundle;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="zza" jni-signature="(IZLandroid/os/Bundle;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="int" jni-type="I"></parameter>
+        <parameter name="p1" type="boolean" jni-type="Z"></parameter>
+        <parameter name="p2" type="android.os.Bundle" jni-type="Landroid/os/Bundle;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="zzb" jni-signature="(IZLandroid/os/Bundle;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="int" jni-type="I"></parameter>
+        <parameter name="p1" type="boolean" jni-type="Z"></parameter>
+        <parameter name="p2" type="android.os.Bundle" jni-type="Landroid/os/Bundle;"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="com.google.android.gms.internal.wallet.zzx" extends-generic-aware="com.google.android.gms.internal.wallet.zzx" jni-extends="Lcom/google/android/gms/internal/wallet/zzx;" final="true" name="zzy" static="false" visibility="" jni-signature="Lcom/google/android/gms/internal/wallet/zzy;"></class>
+    <class abstract="false" deprecated="not deprecated" extends="com.google.android.gms.internal.wallet.zzx" extends-generic-aware="com.google.android.gms.internal.wallet.zzx" jni-extends="Lcom/google/android/gms/internal/wallet/zzx;" final="true" name="zzz" static="false" visibility="" jni-signature="Lcom/google/android/gms/internal/wallet/zzz;">
+      <method abstract="false" deprecated="not deprecated" final="true" name="zza" jni-signature="(ILandroid/os/Bundle;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="int" jni-type="I"></parameter>
+        <parameter name="p1" type="android.os.Bundle" jni-type="Landroid/os/Bundle;"></parameter>
+      </method>
+    </class>
+  </package>
+  <package name="com.google.android.gms.wallet" jni-name="com/google/android/gms/wallet">
+    <interface abstract="true" deprecated="not deprecated" final="false" name="AutoResolvableResult" static="false" visibility="public" jni-signature="Lcom/google/android/gms/wallet/AutoResolvableResult;">
+      <method abstract="true" deprecated="not deprecated" final="false" name="putIntoIntent" jni-signature="(Landroid/content/Intent;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.content.Intent" jni-type="Landroid/content/Intent;"></parameter>
+      </method>
+    </interface>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="AutoResolvableVoidResult" static="false" visibility="public" jni-signature="Lcom/google/android/gms/wallet/AutoResolvableVoidResult;">
+      <implements name="com.google.android.gms.wallet.AutoResolvableResult" name-generic-aware="com.google.android.gms.wallet.AutoResolvableResult" jni-type="Lcom/google/android/gms/wallet/AutoResolvableResult;"></implements>
+      <constructor deprecated="not deprecated" final="false" name="AutoResolvableVoidResult" jni-signature="()V" bridge="false" static="false" type="com.google.android.gms.wallet.AutoResolvableVoidResult" synthetic="false" visibility="public"></constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="putIntoIntent" jni-signature="(Landroid/content/Intent;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.content.Intent" jni-type="Landroid/content/Intent;"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="AutoResolveHelper" static="false" visibility="public" jni-signature="Lcom/google/android/gms/wallet/AutoResolveHelper;">
+      <field deprecated="not deprecated" final="true" name="RESULT_ERROR" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="1" visibility="public" volatile="false"></field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="android.app.Fragment" extends-generic-aware="android.app.Fragment" jni-extends="Landroid/app/Fragment;" final="true" name="AutoResolveHelper.zzb" static="true" visibility="public" jni-signature="Lcom/google/android/gms/wallet/AutoResolveHelper$zzb;">
+      <constructor deprecated="not deprecated" final="false" name="AutoResolveHelper.zzb" jni-signature="()V" bridge="false" static="false" type="com.google.android.gms.wallet.AutoResolveHelper.zzb" synthetic="false" visibility="public"></constructor>
+      <method abstract="false" deprecated="not deprecated" final="true" name="onCreate" jni-signature="(Landroid/os/Bundle;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.os.Bundle" jni-type="Landroid/os/Bundle;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="onPause" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="onResume" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="onSaveInstanceState" jni-signature="(Landroid/os/Bundle;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.os.Bundle" jni-type="Landroid/os/Bundle;"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="CardRequirements.Builder" static="false" visibility="public" jni-signature="Lcom/google/android/gms/wallet/CardRequirements$Builder;">
+      <method abstract="false" deprecated="not deprecated" final="true" name="addAllowedCardNetwork" jni-signature="(I)Lcom/google/android/gms/wallet/CardRequirements$Builder;" bridge="false" native="false" return="com.google.android.gms.wallet.CardRequirements.Builder" jni-return="Lcom/google/android/gms/wallet/CardRequirements$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="int" jni-type="I"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="addAllowedCardNetworks" jni-signature="(Ljava/util/Collection;)Lcom/google/android/gms/wallet/CardRequirements$Builder;" bridge="false" native="false" return="com.google.android.gms.wallet.CardRequirements.Builder" jni-return="Lcom/google/android/gms/wallet/CardRequirements$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.util.Collection&lt;java.lang.Integer&gt;" jni-type="Ljava/util/Collection&lt;Ljava/lang/Integer;&gt;;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="setAllowPrepaidCards" jni-signature="(Z)Lcom/google/android/gms/wallet/CardRequirements$Builder;" bridge="false" native="false" return="com.google.android.gms.wallet.CardRequirements.Builder" jni-return="Lcom/google/android/gms/wallet/CardRequirements$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="boolean" jni-type="Z"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="setBillingAddressFormat" jni-signature="(I)Lcom/google/android/gms/wallet/CardRequirements$Builder;" bridge="false" native="false" return="com.google.android.gms.wallet.CardRequirements.Builder" jni-return="Lcom/google/android/gms/wallet/CardRequirements$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="int" jni-type="I"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="setBillingAddressRequired" jni-signature="(Z)Lcom/google/android/gms/wallet/CardRequirements$Builder;" bridge="false" native="false" return="com.google.android.gms.wallet.CardRequirements.Builder" jni-return="Lcom/google/android/gms/wallet/CardRequirements$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="boolean" jni-type="Z"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="CreateWalletObjectsRequest.Builder" static="false" visibility="public" jni-signature="Lcom/google/android/gms/wallet/CreateWalletObjectsRequest$Builder;">
+      <method abstract="false" deprecated="not deprecated" final="true" name="setCreateMode" jni-signature="(I)Lcom/google/android/gms/wallet/CreateWalletObjectsRequest$Builder;" bridge="false" native="false" return="com.google.android.gms.wallet.CreateWalletObjectsRequest.Builder" jni-return="Lcom/google/android/gms/wallet/CreateWalletObjectsRequest$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="int" jni-type="I"></parameter>
+      </method>
+    </class>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="CreateWalletObjectsRequest.CreateMode" static="true" visibility="public" jni-signature="Lcom/google/android/gms/wallet/CreateWalletObjectsRequest$CreateMode;">
+      <implements name="java.lang.annotation.Annotation" name-generic-aware="java.lang.annotation.Annotation" jni-type="Ljava/lang/annotation/Annotation;"></implements>
+    </interface>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="GiftCardWalletObject.Builder" static="false" visibility="public" jni-signature="Lcom/google/android/gms/wallet/GiftCardWalletObject$Builder;">
+      <method abstract="false" deprecated="not deprecated" final="true" name="setBalanceCurrencyCode" jni-signature="(Ljava/lang/String;)Lcom/google/android/gms/wallet/GiftCardWalletObject$Builder;" bridge="false" native="false" return="com.google.android.gms.wallet.GiftCardWalletObject.Builder" jni-return="Lcom/google/android/gms/wallet/GiftCardWalletObject$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="setBalanceMicros" jni-signature="(J)Lcom/google/android/gms/wallet/GiftCardWalletObject$Builder;" bridge="false" native="false" return="com.google.android.gms.wallet.GiftCardWalletObject.Builder" jni-return="Lcom/google/android/gms/wallet/GiftCardWalletObject$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="long" jni-type="J"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="setBalanceUpdateTime" jni-signature="(J)Lcom/google/android/gms/wallet/GiftCardWalletObject$Builder;" bridge="false" native="false" return="com.google.android.gms.wallet.GiftCardWalletObject.Builder" jni-return="Lcom/google/android/gms/wallet/GiftCardWalletObject$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="long" jni-type="J"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="setBarcodeAlternateText" jni-signature="(Ljava/lang/String;)Lcom/google/android/gms/wallet/GiftCardWalletObject$Builder;" bridge="false" native="false" return="com.google.android.gms.wallet.GiftCardWalletObject.Builder" jni-return="Lcom/google/android/gms/wallet/GiftCardWalletObject$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="deprecated" final="true" name="setBarcodeLabel" jni-signature="(Ljava/lang/String;)Lcom/google/android/gms/wallet/GiftCardWalletObject$Builder;" bridge="false" native="false" return="com.google.android.gms.wallet.GiftCardWalletObject.Builder" jni-return="Lcom/google/android/gms/wallet/GiftCardWalletObject$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="setBarcodeType" jni-signature="(Ljava/lang/String;)Lcom/google/android/gms/wallet/GiftCardWalletObject$Builder;" bridge="false" native="false" return="com.google.android.gms.wallet.GiftCardWalletObject.Builder" jni-return="Lcom/google/android/gms/wallet/GiftCardWalletObject$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="setBarcodeValue" jni-signature="(Ljava/lang/String;)Lcom/google/android/gms/wallet/GiftCardWalletObject$Builder;" bridge="false" native="false" return="com.google.android.gms.wallet.GiftCardWalletObject.Builder" jni-return="Lcom/google/android/gms/wallet/GiftCardWalletObject$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="deprecated" final="true" name="setCardIdentifier" jni-signature="(Ljava/lang/String;)Lcom/google/android/gms/wallet/GiftCardWalletObject$Builder;" bridge="false" native="false" return="com.google.android.gms.wallet.GiftCardWalletObject.Builder" jni-return="Lcom/google/android/gms/wallet/GiftCardWalletObject$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="setCardNumber" jni-signature="(Ljava/lang/String;)Lcom/google/android/gms/wallet/GiftCardWalletObject$Builder;" bridge="false" native="false" return="com.google.android.gms.wallet.GiftCardWalletObject.Builder" jni-return="Lcom/google/android/gms/wallet/GiftCardWalletObject$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="setClassId" jni-signature="(Ljava/lang/String;)Lcom/google/android/gms/wallet/GiftCardWalletObject$Builder;" bridge="false" native="false" return="com.google.android.gms.wallet.GiftCardWalletObject.Builder" jni-return="Lcom/google/android/gms/wallet/GiftCardWalletObject$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="setEventNumber" jni-signature="(Ljava/lang/String;)Lcom/google/android/gms/wallet/GiftCardWalletObject$Builder;" bridge="false" native="false" return="com.google.android.gms.wallet.GiftCardWalletObject.Builder" jni-return="Lcom/google/android/gms/wallet/GiftCardWalletObject$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="setId" jni-signature="(Ljava/lang/String;)Lcom/google/android/gms/wallet/GiftCardWalletObject$Builder;" bridge="false" native="false" return="com.google.android.gms.wallet.GiftCardWalletObject.Builder" jni-return="Lcom/google/android/gms/wallet/GiftCardWalletObject$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="deprecated" final="true" name="setInfoModuleDataHexBackgroundColor" jni-signature="(Ljava/lang/String;)Lcom/google/android/gms/wallet/GiftCardWalletObject$Builder;" bridge="false" native="false" return="com.google.android.gms.wallet.GiftCardWalletObject.Builder" jni-return="Lcom/google/android/gms/wallet/GiftCardWalletObject$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="deprecated" final="true" name="setInfoModuleDataHexFontColor" jni-signature="(Ljava/lang/String;)Lcom/google/android/gms/wallet/GiftCardWalletObject$Builder;" bridge="false" native="false" return="com.google.android.gms.wallet.GiftCardWalletObject.Builder" jni-return="Lcom/google/android/gms/wallet/GiftCardWalletObject$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="setInfoModuleDataShowLastUpdateTime" jni-signature="(Z)Lcom/google/android/gms/wallet/GiftCardWalletObject$Builder;" bridge="false" native="false" return="com.google.android.gms.wallet.GiftCardWalletObject.Builder" jni-return="Lcom/google/android/gms/wallet/GiftCardWalletObject$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="boolean" jni-type="Z"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="setIssuerName" jni-signature="(Ljava/lang/String;)Lcom/google/android/gms/wallet/GiftCardWalletObject$Builder;" bridge="false" native="false" return="com.google.android.gms.wallet.GiftCardWalletObject.Builder" jni-return="Lcom/google/android/gms/wallet/GiftCardWalletObject$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="setPin" jni-signature="(Ljava/lang/String;)Lcom/google/android/gms/wallet/GiftCardWalletObject$Builder;" bridge="false" native="false" return="com.google.android.gms.wallet.GiftCardWalletObject.Builder" jni-return="Lcom/google/android/gms/wallet/GiftCardWalletObject$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="setState" jni-signature="(I)Lcom/google/android/gms/wallet/GiftCardWalletObject$Builder;" bridge="false" native="false" return="com.google.android.gms.wallet.GiftCardWalletObject.Builder" jni-return="Lcom/google/android/gms/wallet/GiftCardWalletObject$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="int" jni-type="I"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="setTitle" jni-signature="(Ljava/lang/String;)Lcom/google/android/gms/wallet/GiftCardWalletObject$Builder;" bridge="false" native="false" return="com.google.android.gms.wallet.GiftCardWalletObject.Builder" jni-return="Lcom/google/android/gms/wallet/GiftCardWalletObject$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+    </class>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="InstrumentInfo.CardClass" static="true" visibility="public" jni-signature="Lcom/google/android/gms/wallet/InstrumentInfo$CardClass;">
+      <implements name="java.lang.annotation.Annotation" name-generic-aware="java.lang.annotation.Annotation" jni-type="Ljava/lang/annotation/Annotation;"></implements>
+    </interface>
+    <class abstract="false" deprecated="deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="IsReadyToPayRequest.Builder" static="false" visibility="public" jni-signature="Lcom/google/android/gms/wallet/IsReadyToPayRequest$Builder;">
+      <method abstract="false" deprecated="not deprecated" final="true" name="addAllowedCardNetwork" jni-signature="(I)Lcom/google/android/gms/wallet/IsReadyToPayRequest$Builder;" bridge="false" native="false" return="com.google.android.gms.wallet.IsReadyToPayRequest.Builder" jni-return="Lcom/google/android/gms/wallet/IsReadyToPayRequest$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="int" jni-type="I"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="addAllowedCardNetworks" jni-signature="(Ljava/util/Collection;)Lcom/google/android/gms/wallet/IsReadyToPayRequest$Builder;" bridge="false" native="false" return="com.google.android.gms.wallet.IsReadyToPayRequest.Builder" jni-return="Lcom/google/android/gms/wallet/IsReadyToPayRequest$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.util.Collection&lt;java.lang.Integer&gt;" jni-type="Ljava/util/Collection&lt;Ljava/lang/Integer;&gt;;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="addAllowedPaymentMethod" jni-signature="(I)Lcom/google/android/gms/wallet/IsReadyToPayRequest$Builder;" bridge="false" native="false" return="com.google.android.gms.wallet.IsReadyToPayRequest.Builder" jni-return="Lcom/google/android/gms/wallet/IsReadyToPayRequest$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="int" jni-type="I"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="addAllowedPaymentMethods" jni-signature="(Ljava/util/Collection;)Lcom/google/android/gms/wallet/IsReadyToPayRequest$Builder;" bridge="false" native="false" return="com.google.android.gms.wallet.IsReadyToPayRequest.Builder" jni-return="Lcom/google/android/gms/wallet/IsReadyToPayRequest$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.util.Collection&lt;java.lang.Integer&gt;" jni-type="Ljava/util/Collection&lt;Ljava/lang/Integer;&gt;;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="setExistingPaymentMethodRequired" jni-signature="(Z)Lcom/google/android/gms/wallet/IsReadyToPayRequest$Builder;" bridge="false" native="false" return="com.google.android.gms.wallet.IsReadyToPayRequest.Builder" jni-return="Lcom/google/android/gms/wallet/IsReadyToPayRequest$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="boolean" jni-type="Z"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="LoyaltyWalletObject.Builder" static="false" visibility="public" jni-signature="Lcom/google/android/gms/wallet/LoyaltyWalletObject$Builder;">
+      <method abstract="false" deprecated="not deprecated" final="true" name="setAccountId" jni-signature="(Ljava/lang/String;)Lcom/google/android/gms/wallet/LoyaltyWalletObject$Builder;" bridge="false" native="false" return="com.google.android.gms.wallet.LoyaltyWalletObject.Builder" jni-return="Lcom/google/android/gms/wallet/LoyaltyWalletObject$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="setAccountName" jni-signature="(Ljava/lang/String;)Lcom/google/android/gms/wallet/LoyaltyWalletObject$Builder;" bridge="false" native="false" return="com.google.android.gms.wallet.LoyaltyWalletObject.Builder" jni-return="Lcom/google/android/gms/wallet/LoyaltyWalletObject$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="setBarcodeAlternateText" jni-signature="(Ljava/lang/String;)Lcom/google/android/gms/wallet/LoyaltyWalletObject$Builder;" bridge="false" native="false" return="com.google.android.gms.wallet.LoyaltyWalletObject.Builder" jni-return="Lcom/google/android/gms/wallet/LoyaltyWalletObject$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="deprecated" final="true" name="setBarcodeLabel" jni-signature="(Ljava/lang/String;)Lcom/google/android/gms/wallet/LoyaltyWalletObject$Builder;" bridge="false" native="false" return="com.google.android.gms.wallet.LoyaltyWalletObject.Builder" jni-return="Lcom/google/android/gms/wallet/LoyaltyWalletObject$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="setBarcodeType" jni-signature="(Ljava/lang/String;)Lcom/google/android/gms/wallet/LoyaltyWalletObject$Builder;" bridge="false" native="false" return="com.google.android.gms.wallet.LoyaltyWalletObject.Builder" jni-return="Lcom/google/android/gms/wallet/LoyaltyWalletObject$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="setBarcodeValue" jni-signature="(Ljava/lang/String;)Lcom/google/android/gms/wallet/LoyaltyWalletObject$Builder;" bridge="false" native="false" return="com.google.android.gms.wallet.LoyaltyWalletObject.Builder" jni-return="Lcom/google/android/gms/wallet/LoyaltyWalletObject$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="setClassId" jni-signature="(Ljava/lang/String;)Lcom/google/android/gms/wallet/LoyaltyWalletObject$Builder;" bridge="false" native="false" return="com.google.android.gms.wallet.LoyaltyWalletObject.Builder" jni-return="Lcom/google/android/gms/wallet/LoyaltyWalletObject$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="setId" jni-signature="(Ljava/lang/String;)Lcom/google/android/gms/wallet/LoyaltyWalletObject$Builder;" bridge="false" native="false" return="com.google.android.gms.wallet.LoyaltyWalletObject.Builder" jni-return="Lcom/google/android/gms/wallet/LoyaltyWalletObject$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="deprecated" final="true" name="setInfoModuleDataHexBackgroundColor" jni-signature="(Ljava/lang/String;)Lcom/google/android/gms/wallet/LoyaltyWalletObject$Builder;" bridge="false" native="false" return="com.google.android.gms.wallet.LoyaltyWalletObject.Builder" jni-return="Lcom/google/android/gms/wallet/LoyaltyWalletObject$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="deprecated" final="true" name="setInfoModuleDataHexFontColor" jni-signature="(Ljava/lang/String;)Lcom/google/android/gms/wallet/LoyaltyWalletObject$Builder;" bridge="false" native="false" return="com.google.android.gms.wallet.LoyaltyWalletObject.Builder" jni-return="Lcom/google/android/gms/wallet/LoyaltyWalletObject$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="setInfoModuleDataShowLastUpdateTime" jni-signature="(Z)Lcom/google/android/gms/wallet/LoyaltyWalletObject$Builder;" bridge="false" native="false" return="com.google.android.gms.wallet.LoyaltyWalletObject.Builder" jni-return="Lcom/google/android/gms/wallet/LoyaltyWalletObject$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="boolean" jni-type="Z"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="setIssuerName" jni-signature="(Ljava/lang/String;)Lcom/google/android/gms/wallet/LoyaltyWalletObject$Builder;" bridge="false" native="false" return="com.google.android.gms.wallet.LoyaltyWalletObject.Builder" jni-return="Lcom/google/android/gms/wallet/LoyaltyWalletObject$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="setProgramName" jni-signature="(Ljava/lang/String;)Lcom/google/android/gms/wallet/LoyaltyWalletObject$Builder;" bridge="false" native="false" return="com.google.android.gms.wallet.LoyaltyWalletObject.Builder" jni-return="Lcom/google/android/gms/wallet/LoyaltyWalletObject$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="setState" jni-signature="(I)Lcom/google/android/gms/wallet/LoyaltyWalletObject$Builder;" bridge="false" native="false" return="com.google.android.gms.wallet.LoyaltyWalletObject.Builder" jni-return="Lcom/google/android/gms/wallet/LoyaltyWalletObject$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="int" jni-type="I"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="OfferWalletObject.Builder" static="false" visibility="public" jni-signature="Lcom/google/android/gms/wallet/OfferWalletObject$Builder;">
+      <method abstract="false" deprecated="not deprecated" final="true" name="setBarcodeAlternateText" jni-signature="(Ljava/lang/String;)Lcom/google/android/gms/wallet/OfferWalletObject$Builder;" bridge="false" native="false" return="com.google.android.gms.wallet.OfferWalletObject.Builder" jni-return="Lcom/google/android/gms/wallet/OfferWalletObject$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="deprecated" final="true" name="setBarcodeLabel" jni-signature="(Ljava/lang/String;)Lcom/google/android/gms/wallet/OfferWalletObject$Builder;" bridge="false" native="false" return="com.google.android.gms.wallet.OfferWalletObject.Builder" jni-return="Lcom/google/android/gms/wallet/OfferWalletObject$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="setBarcodeType" jni-signature="(Ljava/lang/String;)Lcom/google/android/gms/wallet/OfferWalletObject$Builder;" bridge="false" native="false" return="com.google.android.gms.wallet.OfferWalletObject.Builder" jni-return="Lcom/google/android/gms/wallet/OfferWalletObject$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="setBarcodeValue" jni-signature="(Ljava/lang/String;)Lcom/google/android/gms/wallet/OfferWalletObject$Builder;" bridge="false" native="false" return="com.google.android.gms.wallet.OfferWalletObject.Builder" jni-return="Lcom/google/android/gms/wallet/OfferWalletObject$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="setClassId" jni-signature="(Ljava/lang/String;)Lcom/google/android/gms/wallet/OfferWalletObject$Builder;" bridge="false" native="false" return="com.google.android.gms.wallet.OfferWalletObject.Builder" jni-return="Lcom/google/android/gms/wallet/OfferWalletObject$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="setId" jni-signature="(Ljava/lang/String;)Lcom/google/android/gms/wallet/OfferWalletObject$Builder;" bridge="false" native="false" return="com.google.android.gms.wallet.OfferWalletObject.Builder" jni-return="Lcom/google/android/gms/wallet/OfferWalletObject$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="deprecated" final="true" name="setInfoModuleDataHexBackgroundColor" jni-signature="(Ljava/lang/String;)Lcom/google/android/gms/wallet/OfferWalletObject$Builder;" bridge="false" native="false" return="com.google.android.gms.wallet.OfferWalletObject.Builder" jni-return="Lcom/google/android/gms/wallet/OfferWalletObject$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="deprecated" final="true" name="setInfoModuleDataHexFontColor" jni-signature="(Ljava/lang/String;)Lcom/google/android/gms/wallet/OfferWalletObject$Builder;" bridge="false" native="false" return="com.google.android.gms.wallet.OfferWalletObject.Builder" jni-return="Lcom/google/android/gms/wallet/OfferWalletObject$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="setInfoModuleDataShowLastUpdateTime" jni-signature="(Z)Lcom/google/android/gms/wallet/OfferWalletObject$Builder;" bridge="false" native="false" return="com.google.android.gms.wallet.OfferWalletObject.Builder" jni-return="Lcom/google/android/gms/wallet/OfferWalletObject$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="boolean" jni-type="Z"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="setIssuerName" jni-signature="(Ljava/lang/String;)Lcom/google/android/gms/wallet/OfferWalletObject$Builder;" bridge="false" native="false" return="com.google.android.gms.wallet.OfferWalletObject.Builder" jni-return="Lcom/google/android/gms/wallet/OfferWalletObject$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="setRedemptionCode" jni-signature="(Ljava/lang/String;)Lcom/google/android/gms/wallet/OfferWalletObject$Builder;" bridge="false" native="false" return="com.google.android.gms.wallet.OfferWalletObject.Builder" jni-return="Lcom/google/android/gms/wallet/OfferWalletObject$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="setState" jni-signature="(I)Lcom/google/android/gms/wallet/OfferWalletObject$Builder;" bridge="false" native="false" return="com.google.android.gms.wallet.OfferWalletObject.Builder" jni-return="Lcom/google/android/gms/wallet/OfferWalletObject$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="int" jni-type="I"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="setTitle" jni-signature="(Ljava/lang/String;)Lcom/google/android/gms/wallet/OfferWalletObject$Builder;" bridge="false" native="false" return="com.google.android.gms.wallet.OfferWalletObject.Builder" jni-return="Lcom/google/android/gms/wallet/OfferWalletObject$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="PaymentData.zza" static="false" visibility="public" jni-signature="Lcom/google/android/gms/wallet/PaymentData$zza;"></class>
+    <class abstract="false" deprecated="deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="PaymentDataRequest.Builder" static="false" visibility="public" jni-signature="Lcom/google/android/gms/wallet/PaymentDataRequest$Builder;">
+      <method abstract="false" deprecated="not deprecated" final="true" name="addAllowedPaymentMethod" jni-signature="(I)Lcom/google/android/gms/wallet/PaymentDataRequest$Builder;" bridge="false" native="false" return="com.google.android.gms.wallet.PaymentDataRequest.Builder" jni-return="Lcom/google/android/gms/wallet/PaymentDataRequest$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="int" jni-type="I"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="addAllowedPaymentMethods" jni-signature="(Ljava/util/Collection;)Lcom/google/android/gms/wallet/PaymentDataRequest$Builder;" bridge="false" native="false" return="com.google.android.gms.wallet.PaymentDataRequest.Builder" jni-return="Lcom/google/android/gms/wallet/PaymentDataRequest$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.util.Collection&lt;java.lang.Integer&gt;" jni-type="Ljava/util/Collection&lt;Ljava/lang/Integer;&gt;;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="setEmailRequired" jni-signature="(Z)Lcom/google/android/gms/wallet/PaymentDataRequest$Builder;" bridge="false" native="false" return="com.google.android.gms.wallet.PaymentDataRequest.Builder" jni-return="Lcom/google/android/gms/wallet/PaymentDataRequest$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="boolean" jni-type="Z"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="setPhoneNumberRequired" jni-signature="(Z)Lcom/google/android/gms/wallet/PaymentDataRequest$Builder;" bridge="false" native="false" return="com.google.android.gms.wallet.PaymentDataRequest.Builder" jni-return="Lcom/google/android/gms/wallet/PaymentDataRequest$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="boolean" jni-type="Z"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="setShippingAddressRequired" jni-signature="(Z)Lcom/google/android/gms/wallet/PaymentDataRequest$Builder;" bridge="false" native="false" return="com.google.android.gms.wallet.PaymentDataRequest.Builder" jni-return="Lcom/google/android/gms/wallet/PaymentDataRequest$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="boolean" jni-type="Z"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="setUiRequired" jni-signature="(Z)Lcom/google/android/gms/wallet/PaymentDataRequest$Builder;" bridge="false" native="false" return="com.google.android.gms.wallet.PaymentDataRequest.Builder" jni-return="Lcom/google/android/gms/wallet/PaymentDataRequest$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="boolean" jni-type="Z"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="PaymentInstrumentType" static="false" visibility="public" jni-signature="Lcom/google/android/gms/wallet/PaymentInstrumentType;">
+      <constructor deprecated="not deprecated" final="false" name="PaymentInstrumentType" jni-signature="()V" bridge="false" static="false" type="com.google.android.gms.wallet.PaymentInstrumentType" synthetic="false" visibility="public"></constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getAll" jni-signature="()Ljava/util/ArrayList;" bridge="false" native="false" return="java.util.ArrayList&lt;java.lang.Integer&gt;" jni-return="Ljava/util/ArrayList&lt;Ljava/lang/Integer;&gt;;" static="true" synchronized="false" synthetic="false" visibility="public"></method>
+      <field deprecated="not deprecated" final="true" name="AMEX" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="3" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="DISCOVER" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="4" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="JCB" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="5" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="MASTER_CARD" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="2" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="VISA" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="1" visibility="public" volatile="false"></field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="PaymentMethodTokenizationParameters.Builder" static="false" visibility="public" jni-signature="Lcom/google/android/gms/wallet/PaymentMethodTokenizationParameters$Builder;">
+      <method abstract="false" deprecated="not deprecated" final="true" name="addParameter" jni-signature="(Ljava/lang/String;Ljava/lang/String;)Lcom/google/android/gms/wallet/PaymentMethodTokenizationParameters$Builder;" bridge="false" native="false" return="com.google.android.gms.wallet.PaymentMethodTokenizationParameters.Builder" jni-return="Lcom/google/android/gms/wallet/PaymentMethodTokenizationParameters$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="setPaymentMethodTokenizationType" jni-signature="(I)Lcom/google/android/gms/wallet/PaymentMethodTokenizationParameters$Builder;" bridge="false" native="false" return="com.google.android.gms.wallet.PaymentMethodTokenizationParameters.Builder" jni-return="Lcom/google/android/gms/wallet/PaymentMethodTokenizationParameters$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="int" jni-type="I"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="ShippingAddressRequirements.Builder" static="false" visibility="public" jni-signature="Lcom/google/android/gms/wallet/ShippingAddressRequirements$Builder;">
+      <method abstract="false" deprecated="not deprecated" final="true" name="addAllowedCountryCode" jni-signature="(Ljava/lang/String;)Lcom/google/android/gms/wallet/ShippingAddressRequirements$Builder;" bridge="false" native="false" return="com.google.android.gms.wallet.ShippingAddressRequirements.Builder" jni-return="Lcom/google/android/gms/wallet/ShippingAddressRequirements$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="addAllowedCountryCodes" jni-signature="(Ljava/util/Collection;)Lcom/google/android/gms/wallet/ShippingAddressRequirements$Builder;" bridge="false" native="false" return="com.google.android.gms.wallet.ShippingAddressRequirements.Builder" jni-return="Lcom/google/android/gms/wallet/ShippingAddressRequirements$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.util.Collection&lt;java.lang.String&gt;" jni-type="Ljava/util/Collection&lt;Ljava/lang/String;&gt;;"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="TransactionInfo.Builder" static="false" visibility="public" jni-signature="Lcom/google/android/gms/wallet/TransactionInfo$Builder;">
+      <method abstract="false" deprecated="not deprecated" final="true" name="setCurrencyCode" jni-signature="(Ljava/lang/String;)Lcom/google/android/gms/wallet/TransactionInfo$Builder;" bridge="false" native="false" return="com.google.android.gms.wallet.TransactionInfo.Builder" jni-return="Lcom/google/android/gms/wallet/TransactionInfo$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="setTotalPrice" jni-signature="(Ljava/lang/String;)Lcom/google/android/gms/wallet/TransactionInfo$Builder;" bridge="false" native="false" return="com.google.android.gms.wallet.TransactionInfo.Builder" jni-return="Lcom/google/android/gms/wallet/TransactionInfo$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="setTotalPriceStatus" jni-signature="(I)Lcom/google/android/gms/wallet/TransactionInfo$Builder;" bridge="false" native="false" return="com.google.android.gms.wallet.TransactionInfo.Builder" jni-return="Lcom/google/android/gms/wallet/TransactionInfo$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="int" jni-type="I"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="Wallet" static="false" visibility="public" jni-signature="Lcom/google/android/gms/wallet/Wallet;"></class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="Wallet.WalletOptions.Builder" static="true" visibility="public" jni-signature="Lcom/google/android/gms/wallet/Wallet$WalletOptions$Builder;">
+      <constructor deprecated="not deprecated" final="false" name="Wallet.WalletOptions.Builder" jni-signature="()V" bridge="false" static="false" type="com.google.android.gms.wallet.Wallet.WalletOptions.Builder" synthetic="false" visibility="public"></constructor>
+      <method abstract="false" deprecated="not deprecated" final="true" name="setEnvironment" jni-signature="(I)Lcom/google/android/gms/wallet/Wallet$WalletOptions$Builder;" bridge="false" native="false" return="com.google.android.gms.wallet.Wallet.WalletOptions.Builder" jni-return="Lcom/google/android/gms/wallet/Wallet$WalletOptions$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="int" jni-type="I"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="setTheme" jni-signature="(I)Lcom/google/android/gms/wallet/Wallet$WalletOptions$Builder;" bridge="false" native="false" return="com.google.android.gms.wallet.Wallet.WalletOptions.Builder" jni-return="Lcom/google/android/gms/wallet/Wallet$WalletOptions$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="int" jni-type="I"></parameter>
+      </method>
+      <method abstract="false" deprecated="deprecated" final="true" name="useGoogleWallet" jni-signature="()Lcom/google/android/gms/wallet/Wallet$WalletOptions$Builder;" bridge="false" native="false" return="com.google.android.gms.wallet.Wallet.WalletOptions.Builder" jni-return="Lcom/google/android/gms/wallet/Wallet$WalletOptions$Builder;" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="WalletConstants" static="false" visibility="public" jni-signature="Lcom/google/android/gms/wallet/WalletConstants;">
+      <field deprecated="deprecated" final="true" name="ACTION_ENABLE_WALLET_OPTIMIZATION" jni-signature="Ljava/lang/String;" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;com.google.android.gms.wallet.ENABLE_WALLET_OPTIMIZATION&quot;" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="BILLING_ADDRESS_FORMAT_FULL" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="1" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="BILLING_ADDRESS_FORMAT_MIN" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="0" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="CARD_CLASS_CREDIT" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="1" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="CARD_CLASS_DEBIT" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="2" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="CARD_CLASS_PREPAID" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="3" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="CARD_CLASS_UNKNOWN" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="0" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="CARD_NETWORK_AMEX" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="1" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="CARD_NETWORK_DISCOVER" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="2" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="CARD_NETWORK_INTERAC" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="6" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="CARD_NETWORK_JCB" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="3" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="CARD_NETWORK_MASTERCARD" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="4" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="CARD_NETWORK_OTHER" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="1000" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="CARD_NETWORK_VISA" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="5" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="ENVIRONMENT_PRODUCTION" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="1" visibility="public" volatile="false"></field>
+      <field deprecated="deprecated" final="true" name="ENVIRONMENT_SANDBOX" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="0" visibility="public" volatile="false"></field>
+      <field deprecated="deprecated" final="true" name="ENVIRONMENT_STRICT_SANDBOX" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="2" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="ENVIRONMENT_TEST" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="3" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="ERROR_CODE_AUTHENTICATION_FAILURE" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="411" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="ERROR_CODE_BUYER_ACCOUNT_ERROR" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="409" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="ERROR_CODE_DEVELOPER_ERROR" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="10" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="ERROR_CODE_INTERNAL_ERROR" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="8" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="ERROR_CODE_INVALID_PARAMETERS" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="404" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="ERROR_CODE_INVALID_TRANSACTION" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="410" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="ERROR_CODE_MERCHANT_ACCOUNT_ERROR" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="405" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="ERROR_CODE_SERVICE_UNAVAILABLE" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="402" visibility="public" volatile="false"></field>
+      <field deprecated="deprecated" final="true" name="ERROR_CODE_SPENDING_LIMIT_EXCEEDED" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="406" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="ERROR_CODE_UNKNOWN" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="413" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="ERROR_CODE_UNSUPPORTED_API_VERSION" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="412" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="EXTRA_ERROR_CODE" jni-signature="Ljava/lang/String;" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;com.google.android.gms.wallet.EXTRA_ERROR_CODE&quot;" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="EXTRA_IS_READY_TO_PAY" jni-signature="Ljava/lang/String;" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;com.google.android.gms.wallet.EXTRA_IS_READY_TO_PAY&quot;" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="EXTRA_IS_USER_PREAUTHORIZED" jni-signature="Ljava/lang/String;" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;com.google.android.gm.wallet.EXTRA_IS_USER_PREAUTHORIZED&quot;" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="METADATA_TAG_WALLET_API_ENABLED" jni-signature="Ljava/lang/String;" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;com.google.android.gms.wallet.api.enabled&quot;" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="PAYMENT_METHOD_CARD" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="1" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="PAYMENT_METHOD_TOKENIZATION_TYPE_DIRECT" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="3" visibility="public" volatile="false"></field>
+      <field deprecated="deprecated" final="true" name="PAYMENT_METHOD_TOKENIZATION_TYPE_NETWORK_TOKEN" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="2" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="PAYMENT_METHOD_TOKENIZATION_TYPE_PAYMENT_GATEWAY" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="1" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="PAYMENT_METHOD_TOKENIZED_CARD" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="2" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="PAYMENT_METHOD_UNKNOWN" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="0" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="RESULT_ERROR" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="1" visibility="public" volatile="false"></field>
+      <field deprecated="deprecated" final="true" name="THEME_DARK" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="0" visibility="public" volatile="false"></field>
+      <field deprecated="deprecated" final="true" name="THEME_HOLO_DARK" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="0" visibility="public" volatile="false"></field>
+      <field deprecated="deprecated" final="true" name="THEME_HOLO_LIGHT" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="1" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="THEME_LIGHT" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="1" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="TOTAL_PRICE_STATUS_ESTIMATED" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="2" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="TOTAL_PRICE_STATUS_FINAL" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="3" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="TOTAL_PRICE_STATUS_NOT_CURRENTLY_KNOWN" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="1" visibility="public" volatile="false"></field>
+    </class>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="WalletConstants.BillingAddressFormat" static="true" visibility="public" jni-signature="Lcom/google/android/gms/wallet/WalletConstants$BillingAddressFormat;">
+      <implements name="java.lang.annotation.Annotation" name-generic-aware="java.lang.annotation.Annotation" jni-type="Ljava/lang/annotation/Annotation;"></implements>
+    </interface>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="WalletConstants.CardClass" static="true" visibility="public" jni-signature="Lcom/google/android/gms/wallet/WalletConstants$CardClass;">
+      <implements name="java.lang.annotation.Annotation" name-generic-aware="java.lang.annotation.Annotation" jni-type="Ljava/lang/annotation/Annotation;"></implements>
+    </interface>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="WalletConstants.CardNetwork" static="true" visibility="public" jni-signature="Lcom/google/android/gms/wallet/WalletConstants$CardNetwork;">
+      <implements name="java.lang.annotation.Annotation" name-generic-aware="java.lang.annotation.Annotation" jni-type="Ljava/lang/annotation/Annotation;"></implements>
+      <field deprecated="deprecated" final="true" name="AMEX" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="1" visibility="public" volatile="false"></field>
+      <field deprecated="deprecated" final="true" name="DISCOVER" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="2" visibility="public" volatile="false"></field>
+      <field deprecated="deprecated" final="true" name="INTERAC" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="6" visibility="public" volatile="false"></field>
+      <field deprecated="deprecated" final="true" name="JCB" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="3" visibility="public" volatile="false"></field>
+      <field deprecated="deprecated" final="true" name="MASTERCARD" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="4" visibility="public" volatile="false"></field>
+      <field deprecated="deprecated" final="true" name="OTHER" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="1000" visibility="public" volatile="false"></field>
+      <field deprecated="deprecated" final="true" name="VISA" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="5" visibility="public" volatile="false"></field>
+    </interface>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="WalletConstants.PaymentMethod" static="true" visibility="public" jni-signature="Lcom/google/android/gms/wallet/WalletConstants$PaymentMethod;">
+      <implements name="java.lang.annotation.Annotation" name-generic-aware="java.lang.annotation.Annotation" jni-type="Ljava/lang/annotation/Annotation;"></implements>
+    </interface>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="WalletConstants.PaymentMethodTokenizationType" static="true" visibility="public" jni-signature="Lcom/google/android/gms/wallet/WalletConstants$PaymentMethodTokenizationType;">
+      <implements name="java.lang.annotation.Annotation" name-generic-aware="java.lang.annotation.Annotation" jni-type="Ljava/lang/annotation/Annotation;"></implements>
+    </interface>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="WalletConstants.TotalPriceStatus" static="true" visibility="public" jni-signature="Lcom/google/android/gms/wallet/WalletConstants$TotalPriceStatus;">
+      <implements name="java.lang.annotation.Annotation" name-generic-aware="java.lang.annotation.Annotation" jni-type="Ljava/lang/annotation/Annotation;"></implements>
+    </interface>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="zzaf" static="false" visibility="" jni-signature="Lcom/google/android/gms/wallet/zzaf;"></class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="zzah" static="false" visibility="" jni-signature="Lcom/google/android/gms/wallet/zzah;"></class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="zzd" static="false" visibility="" jni-signature="Lcom/google/android/gms/wallet/zzd;"></class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="zzf" static="false" visibility="" jni-signature="Lcom/google/android/gms/wallet/zzf;"></class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="zzh" static="false" visibility="public" jni-signature="Lcom/google/android/gms/wallet/zzh;"></class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="zzj" static="false" visibility="" jni-signature="Lcom/google/android/gms/wallet/zzj;"></class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="zzm" static="false" visibility="" jni-signature="Lcom/google/android/gms/wallet/zzm;"></class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="zzo" static="false" visibility="" jni-signature="Lcom/google/android/gms/wallet/zzo;"></class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="zzr" static="false" visibility="" jni-signature="Lcom/google/android/gms/wallet/zzr;"></class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="zzt" static="false" visibility="" jni-signature="Lcom/google/android/gms/wallet/zzt;"></class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="zzv" static="false" visibility="" jni-signature="Lcom/google/android/gms/wallet/zzv;"></class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="zzy" static="false" visibility="" jni-signature="Lcom/google/android/gms/wallet/zzy;"></class>
+    <interface abstract="true" deprecated="deprecated" final="false" name="zzz" static="false" visibility="public" jni-signature="Lcom/google/android/gms/wallet/zzz;"></interface>
+  </package>
+  <package name="com.google.android.gms.wallet.wobs" jni-name="com/google/android/gms/wallet/wobs">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="CommonWalletObject.zza" static="false" visibility="public" jni-signature="Lcom/google/android/gms/wallet/wobs/CommonWalletObject$zza;">
+      <method abstract="false" deprecated="not deprecated" final="true" name="zza" jni-signature="(Z)Lcom/google/android/gms/wallet/wobs/CommonWalletObject$zza;" bridge="false" native="false" return="com.google.android.gms.wallet.wobs.CommonWalletObject.zza" jni-return="Lcom/google/android/gms/wallet/wobs/CommonWalletObject$zza;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="boolean" jni-type="Z"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="zza" jni-signature="(I)Lcom/google/android/gms/wallet/wobs/CommonWalletObject$zza;" bridge="false" native="false" return="com.google.android.gms.wallet.wobs.CommonWalletObject.zza" jni-return="Lcom/google/android/gms/wallet/wobs/CommonWalletObject$zza;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="int" jni-type="I"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="zza" jni-signature="(Ljava/lang/String;)Lcom/google/android/gms/wallet/wobs/CommonWalletObject$zza;" bridge="false" native="false" return="com.google.android.gms.wallet.wobs.CommonWalletObject.zza" jni-return="Lcom/google/android/gms/wallet/wobs/CommonWalletObject$zza;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="zzb" jni-signature="(Ljava/lang/String;)Lcom/google/android/gms/wallet/wobs/CommonWalletObject$zza;" bridge="false" native="false" return="com.google.android.gms.wallet.wobs.CommonWalletObject.zza" jni-return="Lcom/google/android/gms/wallet/wobs/CommonWalletObject$zza;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="zzc" jni-signature="(Ljava/lang/String;)Lcom/google/android/gms/wallet/wobs/CommonWalletObject$zza;" bridge="false" native="false" return="com.google.android.gms.wallet.wobs.CommonWalletObject.zza" jni-return="Lcom/google/android/gms/wallet/wobs/CommonWalletObject$zza;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="zzd" jni-signature="(Ljava/lang/String;)Lcom/google/android/gms/wallet/wobs/CommonWalletObject$zza;" bridge="false" native="false" return="com.google.android.gms.wallet.wobs.CommonWalletObject.zza" jni-return="Lcom/google/android/gms/wallet/wobs/CommonWalletObject$zza;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="zze" jni-signature="(Ljava/lang/String;)Lcom/google/android/gms/wallet/wobs/CommonWalletObject$zza;" bridge="false" native="false" return="com.google.android.gms.wallet.wobs.CommonWalletObject.zza" jni-return="Lcom/google/android/gms/wallet/wobs/CommonWalletObject$zza;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="zzf" jni-signature="(Ljava/lang/String;)Lcom/google/android/gms/wallet/wobs/CommonWalletObject$zza;" bridge="false" native="false" return="com.google.android.gms.wallet.wobs.CommonWalletObject.zza" jni-return="Lcom/google/android/gms/wallet/wobs/CommonWalletObject$zza;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="zzg" jni-signature="(Ljava/lang/String;)Lcom/google/android/gms/wallet/wobs/CommonWalletObject$zza;" bridge="false" native="false" return="com.google.android.gms.wallet.wobs.CommonWalletObject.zza" jni-return="Lcom/google/android/gms/wallet/wobs/CommonWalletObject$zza;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="deprecated" final="true" name="zzh" jni-signature="(Ljava/lang/String;)Lcom/google/android/gms/wallet/wobs/CommonWalletObject$zza;" bridge="false" native="false" return="com.google.android.gms.wallet.wobs.CommonWalletObject.zza" jni-return="Lcom/google/android/gms/wallet/wobs/CommonWalletObject$zza;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="deprecated" final="true" name="zzi" jni-signature="(Ljava/lang/String;)Lcom/google/android/gms/wallet/wobs/CommonWalletObject$zza;" bridge="false" native="false" return="com.google.android.gms.wallet.wobs.CommonWalletObject.zza" jni-return="Lcom/google/android/gms/wallet/wobs/CommonWalletObject$zza;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="deprecated" final="true" name="zzj" jni-signature="(Ljava/lang/String;)Lcom/google/android/gms/wallet/wobs/CommonWalletObject$zza;" bridge="false" native="false" return="com.google.android.gms.wallet.wobs.CommonWalletObject.zza" jni-return="Lcom/google/android/gms/wallet/wobs/CommonWalletObject$zza;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="LabelValueRow.Builder" static="false" visibility="public" jni-signature="Lcom/google/android/gms/wallet/wobs/LabelValueRow$Builder;">
+      <method abstract="false" deprecated="deprecated" final="true" name="setHexBackgroundColor" jni-signature="(Ljava/lang/String;)Lcom/google/android/gms/wallet/wobs/LabelValueRow$Builder;" bridge="false" native="false" return="com.google.android.gms.wallet.wobs.LabelValueRow.Builder" jni-return="Lcom/google/android/gms/wallet/wobs/LabelValueRow$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="deprecated" final="true" name="setHexFontColor" jni-signature="(Ljava/lang/String;)Lcom/google/android/gms/wallet/wobs/LabelValueRow$Builder;" bridge="false" native="false" return="com.google.android.gms.wallet.wobs.LabelValueRow.Builder" jni-return="Lcom/google/android/gms/wallet/wobs/LabelValueRow$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="LoyaltyPoints.Builder" static="false" visibility="public" jni-signature="Lcom/google/android/gms/wallet/wobs/LoyaltyPoints$Builder;">
+      <method abstract="false" deprecated="not deprecated" final="true" name="setLabel" jni-signature="(Ljava/lang/String;)Lcom/google/android/gms/wallet/wobs/LoyaltyPoints$Builder;" bridge="false" native="false" return="com.google.android.gms.wallet.wobs.LoyaltyPoints.Builder" jni-return="Lcom/google/android/gms/wallet/wobs/LoyaltyPoints$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="deprecated" final="true" name="setType" jni-signature="(Ljava/lang/String;)Lcom/google/android/gms/wallet/wobs/LoyaltyPoints$Builder;" bridge="false" native="false" return="com.google.android.gms.wallet.wobs.LoyaltyPoints.Builder" jni-return="Lcom/google/android/gms/wallet/wobs/LoyaltyPoints$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="LoyaltyPointsBalance.Builder" static="false" visibility="public" jni-signature="Lcom/google/android/gms/wallet/wobs/LoyaltyPointsBalance$Builder;">
+      <method abstract="false" deprecated="not deprecated" final="true" name="setDouble" jni-signature="(D)Lcom/google/android/gms/wallet/wobs/LoyaltyPointsBalance$Builder;" bridge="false" native="false" return="com.google.android.gms.wallet.wobs.LoyaltyPointsBalance.Builder" jni-return="Lcom/google/android/gms/wallet/wobs/LoyaltyPointsBalance$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="double" jni-type="D"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="setInt" jni-signature="(I)Lcom/google/android/gms/wallet/wobs/LoyaltyPointsBalance$Builder;" bridge="false" native="false" return="com.google.android.gms.wallet.wobs.LoyaltyPointsBalance.Builder" jni-return="Lcom/google/android/gms/wallet/wobs/LoyaltyPointsBalance$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="int" jni-type="I"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="setMoney" jni-signature="(Ljava/lang/String;J)Lcom/google/android/gms/wallet/wobs/LoyaltyPointsBalance$Builder;" bridge="false" native="false" return="com.google.android.gms.wallet.wobs.LoyaltyPointsBalance.Builder" jni-return="Lcom/google/android/gms/wallet/wobs/LoyaltyPointsBalance$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="long" jni-type="J"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="setString" jni-signature="(Ljava/lang/String;)Lcom/google/android/gms/wallet/wobs/LoyaltyPointsBalance$Builder;" bridge="false" native="false" return="com.google.android.gms.wallet.wobs.LoyaltyPointsBalance.Builder" jni-return="Lcom/google/android/gms/wallet/wobs/LoyaltyPointsBalance$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+    </class>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="LoyaltyPointsBalance.Type" static="true" visibility="public" jni-signature="Lcom/google/android/gms/wallet/wobs/LoyaltyPointsBalance$Type;">
+      <field deprecated="not deprecated" final="true" name="DOUBLE" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="2" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="INT" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="0" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="MONEY" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="3" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="STRING" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="1" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="UNDEFINED" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="-1" visibility="public" volatile="false"></field>
+    </interface>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="WalletObjectMessage.Builder" static="false" visibility="public" jni-signature="Lcom/google/android/gms/wallet/wobs/WalletObjectMessage$Builder;">
+      <method abstract="false" deprecated="not deprecated" final="true" name="setBody" jni-signature="(Ljava/lang/String;)Lcom/google/android/gms/wallet/wobs/WalletObjectMessage$Builder;" bridge="false" native="false" return="com.google.android.gms.wallet.wobs.WalletObjectMessage.Builder" jni-return="Lcom/google/android/gms/wallet/wobs/WalletObjectMessage$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="setHeader" jni-signature="(Ljava/lang/String;)Lcom/google/android/gms/wallet/wobs/WalletObjectMessage$Builder;" bridge="false" native="false" return="com.google.android.gms.wallet.wobs.WalletObjectMessage.Builder" jni-return="Lcom/google/android/gms/wallet/wobs/WalletObjectMessage$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+    </class>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="WalletObjects" static="false" visibility="public" jni-signature="Lcom/google/android/gms/wallet/wobs/WalletObjects;"></interface>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="WalletObjectsConstants" static="false" visibility="public" jni-signature="Lcom/google/android/gms/wallet/wobs/WalletObjectsConstants;"></interface>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="WalletObjectsConstants.State" static="true" visibility="public" jni-signature="Lcom/google/android/gms/wallet/wobs/WalletObjectsConstants$State;">
+      <field deprecated="not deprecated" final="true" name="ACTIVE" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="1" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="COMPLETED" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="2" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="EXPIRED" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="4" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="INACTIVE" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="5" visibility="public" volatile="false"></field>
+    </interface>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="zza" static="false" visibility="" jni-signature="Lcom/google/android/gms/wallet/wobs/zza;"></class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="zzd" static="false" visibility="" jni-signature="Lcom/google/android/gms/wallet/wobs/zzd;"></class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="zzf" static="false" visibility="" jni-signature="Lcom/google/android/gms/wallet/wobs/zzf;"></class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="zzg" static="false" visibility="" jni-signature="Lcom/google/android/gms/wallet/wobs/zzg;"></class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="zzm" static="false" visibility="" jni-signature="Lcom/google/android/gms/wallet/wobs/zzm;"></class>
+  </package>
+</api>

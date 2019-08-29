@@ -1,0 +1,5 @@
+C:\dev\XamarinApps\JavaBindingExample\JavaBindingExample\bin\Debug\JavaBindingExample.dll
+C:\dev\XamarinApps\JavaBindingExample\JavaBindingExample\bin\Debug\JavaBindingExample.pdb
+C:\dev\XamarinApps\JavaBindingExample\JavaBindingExample\obj\Debug\JavaBindingExample.csproj.CoreCompileInputs.cache
+C:\dev\XamarinApps\JavaBindingExample\JavaBindingExample\obj\Debug\JavaBindingExample.dll
+C:\dev\XamarinApps\JavaBindingExample\JavaBindingExample\obj\Debug\JavaBindingExample.pdb

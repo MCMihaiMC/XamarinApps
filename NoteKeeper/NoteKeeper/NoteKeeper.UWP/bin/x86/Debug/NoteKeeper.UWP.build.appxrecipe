@@ -10,22 +10,22 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>ec0cc741-fd3e-485c-81be-68815c480690</PackageIdentityName>
     <PackageIdentityPublisher>CN=b333681c-8438-49f2-81fb-9cb221e20f09</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\dev\NoteKeeper\NoteKeeper\NoteKeeper.UWP\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\dev\XamarinApps\NoteKeeper\NoteKeeper\NoteKeeper.UWP\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\dev\NoteKeeper\NoteKeeper\NoteKeeper.UWP\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\dev\XamarinApps\NoteKeeper\NoteKeeper\NoteKeeper.UWP\bin\x86\Debug\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\dev\NoteKeeper\NoteKeeper\NoteKeeper.UWP\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\dev\XamarinApps\NoteKeeper\NoteKeeper\NoteKeeper.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\dev\NoteKeeper\NoteKeeper\NoteKeeper.UWP\bin\x86\Debug\NoteKeeper.UWP.exe">
+    <AppxPackagedFile Include="C:\dev\XamarinApps\NoteKeeper\NoteKeeper\NoteKeeper.UWP\bin\x86\Debug\NoteKeeper.UWP.exe">
       <PackagePath>entrypoint\NoteKeeper.UWP.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mihai\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.1.9\runtimes\win10-x86\nativeassets\uap10.0.15138\clrcompression.dll">
@@ -538,7 +538,7 @@
     <AppxPackagedFile Include="C:\Users\mihai\.nuget\packages\xamarin.forms\4.0.0.425677\lib\uap10.0\Xamarin.Forms.Xaml.dll">
       <PackagePath>Xamarin.Forms.Xaml.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\dev\NoteKeeper\NoteKeeper\NoteKeeper\bin\Debug\netstandard2.0\NoteKeeper.dll">
+    <AppxPackagedFile Include="C:\dev\XamarinApps\NoteKeeper\NoteKeeper\NoteKeeper\bin\Debug\netstandard2.0\NoteKeeper.dll">
       <PackagePath>NoteKeeper.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mihai\.nuget\packages\win2d.uwp\1.20.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
@@ -547,136 +547,136 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.17763.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\dev\NoteKeeper\NoteKeeper\NoteKeeper.UWP\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\dev\XamarinApps\NoteKeeper\NoteKeeper\NoteKeeper.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\dev\NoteKeeper\NoteKeeper\NoteKeeper.UWP\Assets\LargeTile.scale-100.png">
+    <AppxPackagedFile Include="C:\dev\XamarinApps\NoteKeeper\NoteKeeper\NoteKeeper.UWP\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\dev\NoteKeeper\NoteKeeper\NoteKeeper.UWP\Assets\LargeTile.scale-200.png">
+    <AppxPackagedFile Include="C:\dev\XamarinApps\NoteKeeper\NoteKeeper\NoteKeeper.UWP\Assets\LargeTile.scale-200.png">
       <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\dev\NoteKeeper\NoteKeeper\NoteKeeper.UWP\Assets\LargeTile.scale-400.png">
+    <AppxPackagedFile Include="C:\dev\XamarinApps\NoteKeeper\NoteKeeper\NoteKeeper.UWP\Assets\LargeTile.scale-400.png">
       <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\dev\NoteKeeper\NoteKeeper\NoteKeeper.UWP\Assets\SmallTile.scale-100.png">
+    <AppxPackagedFile Include="C:\dev\XamarinApps\NoteKeeper\NoteKeeper\NoteKeeper.UWP\Assets\SmallTile.scale-100.png">
       <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\dev\NoteKeeper\NoteKeeper\NoteKeeper.UWP\Assets\SmallTile.scale-200.png">
+    <AppxPackagedFile Include="C:\dev\XamarinApps\NoteKeeper\NoteKeeper\NoteKeeper.UWP\Assets\SmallTile.scale-200.png">
       <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\dev\NoteKeeper\NoteKeeper\NoteKeeper.UWP\Assets\SmallTile.scale-400.png">
+    <AppxPackagedFile Include="C:\dev\XamarinApps\NoteKeeper\NoteKeeper\NoteKeeper.UWP\Assets\SmallTile.scale-400.png">
       <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\dev\NoteKeeper\NoteKeeper\NoteKeeper.UWP\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\dev\XamarinApps\NoteKeeper\NoteKeeper\NoteKeeper.UWP\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\dev\NoteKeeper\NoteKeeper\NoteKeeper.UWP\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\dev\XamarinApps\NoteKeeper\NoteKeeper\NoteKeeper.UWP\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\dev\NoteKeeper\NoteKeeper\NoteKeeper.UWP\Assets\SplashScreen.scale-400.png">
+    <AppxPackagedFile Include="C:\dev\XamarinApps\NoteKeeper\NoteKeeper\NoteKeeper.UWP\Assets\SplashScreen.scale-400.png">
       <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\dev\NoteKeeper\NoteKeeper\NoteKeeper.UWP\Assets\Square150x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\dev\XamarinApps\NoteKeeper\NoteKeeper\NoteKeeper.UWP\Assets\Square150x150Logo.scale-100.png">
       <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\dev\NoteKeeper\NoteKeeper\NoteKeeper.UWP\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\dev\XamarinApps\NoteKeeper\NoteKeeper\NoteKeeper.UWP\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\dev\NoteKeeper\NoteKeeper\NoteKeeper.UWP\Assets\Square150x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\dev\XamarinApps\NoteKeeper\NoteKeeper\NoteKeeper.UWP\Assets\Square150x150Logo.scale-400.png">
       <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\dev\NoteKeeper\NoteKeeper\NoteKeeper.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\dev\XamarinApps\NoteKeeper\NoteKeeper\NoteKeeper.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\dev\NoteKeeper\NoteKeeper\NoteKeeper.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\dev\XamarinApps\NoteKeeper\NoteKeeper\NoteKeeper.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\dev\NoteKeeper\NoteKeeper\NoteKeeper.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\dev\XamarinApps\NoteKeeper\NoteKeeper\NoteKeeper.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\dev\NoteKeeper\NoteKeeper\NoteKeeper.UWP\Assets\Square44x44Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\dev\XamarinApps\NoteKeeper\NoteKeeper\NoteKeeper.UWP\Assets\Square44x44Logo.scale-100.png">
       <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\dev\NoteKeeper\NoteKeeper\NoteKeeper.UWP\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\dev\XamarinApps\NoteKeeper\NoteKeeper\NoteKeeper.UWP\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\dev\NoteKeeper\NoteKeeper\NoteKeeper.UWP\Assets\Square44x44Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\dev\XamarinApps\NoteKeeper\NoteKeeper\NoteKeeper.UWP\Assets\Square44x44Logo.scale-400.png">
       <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\dev\NoteKeeper\NoteKeeper\NoteKeeper.UWP\Assets\Square44x44Logo.targetsize-16.png">
+    <AppxPackagedFile Include="C:\dev\XamarinApps\NoteKeeper\NoteKeeper\NoteKeeper.UWP\Assets\Square44x44Logo.targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\dev\NoteKeeper\NoteKeeper\NoteKeeper.UWP\Assets\Square44x44Logo.targetsize-256.png">
+    <AppxPackagedFile Include="C:\dev\XamarinApps\NoteKeeper\NoteKeeper\NoteKeeper.UWP\Assets\Square44x44Logo.targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\dev\NoteKeeper\NoteKeeper\NoteKeeper.UWP\Assets\Square44x44Logo.targetsize-48.png">
+    <AppxPackagedFile Include="C:\dev\XamarinApps\NoteKeeper\NoteKeeper\NoteKeeper.UWP\Assets\Square44x44Logo.targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\dev\NoteKeeper\NoteKeeper\NoteKeeper.UWP\Assets\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\dev\XamarinApps\NoteKeeper\NoteKeeper\NoteKeeper.UWP\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\dev\NoteKeeper\NoteKeeper\NoteKeeper.UWP\Assets\StoreLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\dev\XamarinApps\NoteKeeper\NoteKeeper\NoteKeeper.UWP\Assets\StoreLogo.scale-200.png">
       <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\dev\NoteKeeper\NoteKeeper\NoteKeeper.UWP\Assets\StoreLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\dev\XamarinApps\NoteKeeper\NoteKeeper\NoteKeeper.UWP\Assets\StoreLogo.scale-400.png">
       <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\dev\NoteKeeper\NoteKeeper\NoteKeeper.UWP\Assets\Wide310x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\dev\XamarinApps\NoteKeeper\NoteKeeper\NoteKeeper.UWP\Assets\Wide310x150Logo.scale-100.png">
       <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\dev\NoteKeeper\NoteKeeper\NoteKeeper.UWP\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\dev\XamarinApps\NoteKeeper\NoteKeeper\NoteKeeper.UWP\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\dev\NoteKeeper\NoteKeeper\NoteKeeper.UWP\Assets\Wide310x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\dev\XamarinApps\NoteKeeper\NoteKeeper\NoteKeeper.UWP\Assets\Wide310x150Logo.scale-400.png">
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\dev\NoteKeeper\NoteKeeper\NoteKeeper.UWP\xamarin_logo.png">
+    <AppxPackagedFile Include="C:\dev\XamarinApps\NoteKeeper\NoteKeeper\NoteKeeper.UWP\xamarin_logo.png">
       <PackagePath>xamarin_logo.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\dev\NoteKeeper\NoteKeeper\NoteKeeper.UWP\add.png">
+    <AppxPackagedFile Include="C:\dev\XamarinApps\NoteKeeper\NoteKeeper\NoteKeeper.UWP\add.png">
       <PackagePath>add.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\dev\NoteKeeper\NoteKeeper\NoteKeeper.UWP\save.png">
+    <AppxPackagedFile Include="C:\dev\XamarinApps\NoteKeeper\NoteKeeper\NoteKeeper.UWP\save.png">
       <PackagePath>save.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\dev\NoteKeeper\NoteKeeper\NoteKeeper.UWP\cancel.png">
+    <AppxPackagedFile Include="C:\dev\XamarinApps\NoteKeeper\NoteKeeper\NoteKeeper.UWP\cancel.png">
       <PackagePath>cancel.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\dev\NoteKeeper\NoteKeeper\NoteKeeper.UWP\bin\x86\Debug\NoteKeeper.UWP.xr.xml">
+    <AppxPackagedFile Include="C:\dev\XamarinApps\NoteKeeper\NoteKeeper\NoteKeeper.UWP\bin\x86\Debug\NoteKeeper.UWP.xr.xml">
       <PackagePath>NoteKeeper.UWP.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\dev\NoteKeeper\NoteKeeper\NoteKeeper.UWP\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\dev\XamarinApps\NoteKeeper\NoteKeeper\NoteKeeper.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\dev\NoteKeeper\NoteKeeper\NoteKeeper.UWP\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\dev\XamarinApps\NoteKeeper\NoteKeeper\NoteKeeper.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17763.0\Windows.winmd">
@@ -685,10 +685,10 @@
     <AppxPackagedFile Include="C:\Users\mihai\.nuget\packages\xamarin.forms\4.0.0.425677\lib\uap10.0\Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml">
       <PackagePath>Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\dev\NoteKeeper\NoteKeeper\NoteKeeper.UWP\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\dev\XamarinApps\NoteKeeper\NoteKeeper\NoteKeeper.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\dev\NoteKeeper\NoteKeeper\NoteKeeper.UWP\bin\x86\Debug\Core\NoteKeeper.UWP.exe">
+    <AppxPackagedFile Include="C:\dev\XamarinApps\NoteKeeper\NoteKeeper\NoteKeeper.UWP\bin\x86\Debug\Core\NoteKeeper.UWP.exe">
       <PackagePath>NoteKeeper.UWP.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

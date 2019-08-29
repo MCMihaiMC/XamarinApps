@@ -8002,11 +8002,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\dev\\NoteKeeper\\NoteKeeper\\NoteKeeper.UWP\\NoteKeeper.UWP.csproj",
+      "projectUniqueName": "C:\\dev\\XamarinApps\\NoteKeeper\\NoteKeeper\\NoteKeeper.UWP\\NoteKeeper.UWP.csproj",
       "projectName": "NoteKeeper.UWP",
-      "projectPath": "C:\\dev\\NoteKeeper\\NoteKeeper\\NoteKeeper.UWP\\NoteKeeper.UWP.csproj",
+      "projectPath": "C:\\dev\\XamarinApps\\NoteKeeper\\NoteKeeper\\NoteKeeper.UWP\\NoteKeeper.UWP.csproj",
       "packagesPath": "C:\\Users\\mihai\\.nuget\\packages\\",
-      "outputPath": "C:\\dev\\NoteKeeper\\NoteKeeper\\NoteKeeper.UWP\\obj\\",
+      "outputPath": "C:\\dev\\XamarinApps\\NoteKeeper\\NoteKeeper\\NoteKeeper.UWP\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -8028,8 +8028,8 @@
       "frameworks": {
         "uap10.0.16299": {
           "projectReferences": {
-            "C:\\dev\\NoteKeeper\\NoteKeeper\\NoteKeeper\\NoteKeeper.csproj": {
-              "projectPath": "C:\\dev\\NoteKeeper\\NoteKeeper\\NoteKeeper\\NoteKeeper.csproj"
+            "C:\\dev\\XamarinApps\\NoteKeeper\\NoteKeeper\\NoteKeeper\\NoteKeeper.csproj": {
+              "projectPath": "C:\\dev\\XamarinApps\\NoteKeeper\\NoteKeeper\\NoteKeeper\\NoteKeeper.csproj"
             }
           }
         }
