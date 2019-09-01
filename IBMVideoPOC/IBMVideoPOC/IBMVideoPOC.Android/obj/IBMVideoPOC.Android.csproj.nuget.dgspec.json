@@ -155,7 +155,7 @@
         "projectPath": "C:\\dev\\XamarinApps\\JavaBindingExample\\JavaBindingExample\\JavaBindingExample.csproj"
       },
       "frameworks": {
-        "monoandroid90": {}
+        "monoandroid81": {}
       }
     }
   }

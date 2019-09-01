@@ -9,6 +9,7 @@ C:\dev\XamarinApps\IBMVideoPOC\IBMVideoPOC\IBMVideoPOC.Android\obj\Debug\90\andr
 C:\dev\XamarinApps\IBMVideoPOC\IBMVideoPOC\IBMVideoPOC.Android\obj\Debug\90\android\assets\System.dll
 C:\dev\XamarinApps\IBMVideoPOC\IBMVideoPOC\IBMVideoPOC.Android\obj\Debug\90\android\assets\System.Numerics.dll
 C:\dev\XamarinApps\IBMVideoPOC\IBMVideoPOC\IBMVideoPOC.Android\obj\Debug\90\android\assets\System.Numerics.Vectors.dll
+C:\dev\XamarinApps\IBMVideoPOC\IBMVideoPOC\IBMVideoPOC.Android\obj\Debug\90\android\assets\System.Runtime.dll
 C:\dev\XamarinApps\IBMVideoPOC\IBMVideoPOC\IBMVideoPOC.Android\obj\Debug\90\android\assets\System.Xml.dll
 C:\dev\XamarinApps\IBMVideoPOC\IBMVideoPOC\IBMVideoPOC.Android\obj\Debug\90\android\assets\System.Xml.Linq.dll
 C:\dev\XamarinApps\IBMVideoPOC\IBMVideoPOC\IBMVideoPOC.Android\obj\Debug\90\android\assets\Xamarin.Android.Arch.Core.Common.dll
@@ -58,6 +59,7 @@ C:\dev\XamarinApps\IBMVideoPOC\IBMVideoPOC\IBMVideoPOC.Android\obj\Debug\90\andr
 C:\dev\XamarinApps\IBMVideoPOC\IBMVideoPOC\IBMVideoPOC.Android\obj\Debug\90\android\assets\netstandard.dll
 C:\dev\XamarinApps\IBMVideoPOC\IBMVideoPOC\IBMVideoPOC.Android\obj\Debug\90\android\assets\System.Data.dll
 C:\dev\XamarinApps\IBMVideoPOC\IBMVideoPOC\IBMVideoPOC.Android\obj\Debug\90\android\assets\System.Transactions.dll
+C:\dev\XamarinApps\IBMVideoPOC\IBMVideoPOC\IBMVideoPOC.Android\obj\Debug\90\android\assets\System.Drawing.Common.dll
 C:\dev\XamarinApps\IBMVideoPOC\IBMVideoPOC\IBMVideoPOC.Android\obj\Debug\90\android\assets\System.IO.Compression.dll
 C:\dev\XamarinApps\IBMVideoPOC\IBMVideoPOC\IBMVideoPOC.Android\obj\Debug\90\android\assets\System.IO.Compression.FileSystem.dll
 C:\dev\XamarinApps\IBMVideoPOC\IBMVideoPOC\IBMVideoPOC.Android\obj\Debug\90\android\assets\System.ComponentModel.Composition.dll

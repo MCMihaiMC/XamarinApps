@@ -14,10 +14,10 @@ namespace Java.Interop {
 #endif // def MONODROID_TIMING
 			Java.Interop.TypeManager.RegisterPackages (
 					new string[]{
-						"com/google/android/gms/wallet",
+						"com/squareup/picasso",
 					},
 					new Converter<string, Type>[]{
-						lookup_com_google_android_gms_wallet_package,
+						lookup_com_squareup_picasso_package,
 					});
 #if MONODROID_TIMING
 			var end = DateTime.Now;
@@ -33,16 +33,18 @@ namespace Java.Interop {
 			return Type.GetType (managedType);
 		}
 
-		static string[] package_com_google_android_gms_wallet_mappings;
-		static Type lookup_com_google_android_gms_wallet_package (string klass)
+		static string[] package_com_squareup_picasso_mappings;
+		static Type lookup_com_squareup_picasso_package (string klass)
 		{
-			if (package_com_google_android_gms_wallet_mappings == null) {
-				package_com_google_android_gms_wallet_mappings = new string[]{
-					"com/google/android/gms/wallet/Wallet$WalletOptions$Builder:Com.Google.Android.Gms.Wallet.Wallet/Builder",
+			if (package_com_squareup_picasso_mappings == null) {
+				package_com_squareup_picasso_mappings = new string[]{
+					"com/squareup/picasso/Callback$EmptyCallback:Com.Squareup.Picasso.CallbackEmptyCallback",
+					"com/squareup/picasso/Downloader$Response:Com.Squareup.Picasso.DownloaderResponse",
+					"com/squareup/picasso/Downloader$ResponseException:Com.Squareup.Picasso.DownloaderResponseException",
 				};
 			}
 
-			return Lookup (package_com_google_android_gms_wallet_mappings, klass);
+			return Lookup (package_com_squareup_picasso_mappings, klass);
 		}
 	}
 }
