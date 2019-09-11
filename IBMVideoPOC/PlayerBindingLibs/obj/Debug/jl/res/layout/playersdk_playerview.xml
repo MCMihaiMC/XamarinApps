@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <TextureView
+        android:id="@id/playersdk_render_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <com.google.android.exoplayer2.ui.SubtitleView
+        android:id="@id/playersdk_subtitle_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <tv.ustream.player.android.internal.ui.LogoLayout
+        android:id="@id/playersdk_logo_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@id/playersdk_custom_logo"
+            android:tag="custom_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/playersdk_logo_custom_content_description"
+            android:visibility="gone" />
+
+    </tv.ustream.player.android.internal.ui.LogoLayout>
+
+</merge>

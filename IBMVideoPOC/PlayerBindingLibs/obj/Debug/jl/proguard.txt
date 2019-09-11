@@ -1,0 +1,48 @@
+-keepattributes InnerClasses,Signature,*Annotation*,EnclosingMethod,SourceFile,LineNumberTable
+-optimizations !class/merging/horizontal
+
+# UMS
+-keepnames class tv.ustream.ums.InboundUmsMessage$* { *; }
+-keepclassmembers class tv.ustream.ums.InboundUmsMessage$* {
+    !private <init>(**);
+    !private <fields>;
+}
+-keepnames class * implements tv.ustream.ums.subscribe.InboundSubscribeMessage { *; }
+-keepnames class tv.ustream.ums.OutboundUmsMessage$* { *; }
+-keepnames class tv.ustream.ums.json.UmsMessageEnvelope {
+    !private <fields>;
+}
+-keepnames class * implements tv.ustream.ums.subscribe.OutboundSubscribeMessage { *; }
+
+# Serializable
+-keepnames class * implements java.io.Serializable
+-keepclassmembers class * implements java.io.Serializable {
+    static final long serialVersionUID;
+    private static final java.io.ObjectStreamField[] serialPersistentFields;
+    !static !transient <fields>;
+    private void writeObject(java.io.ObjectOutputStream);
+    private void readObject(java.io.ObjectInputStream);
+    java.lang.Object writeReplace();
+    java.lang.Object readResolve();
+}
+
+# Enum
+-keepclassmembers enum  * {
+    public static **[] values();
+    public static ** valueOf(java.lang.String);
+}
+
+# Warnings
+-dontwarn android.media.AudioTrack
+-dontwarn android.media.PlaybackParams
+-dontwarn android.view.Display*
+
+-dontwarn java.nio.file.*
+
+-dontwarn org.codehaus.mojo.animal_sniffer.IgnoreJRERequirement
+-dontwarn org.joda.convert.*
+
+# OkHTTP optional dependency (we don't use it)
+-dontwarn org.conscrypt.**
+
+-dontnote **

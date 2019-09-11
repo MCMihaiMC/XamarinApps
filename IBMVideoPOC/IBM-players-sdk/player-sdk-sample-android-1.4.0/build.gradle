@@ -1,0 +1,24 @@
+buildscript {
+    ext.m2repositoryPath = "${rootProject.rootDir.path}/m2repository"
+
+    repositories {
+        google()
+        mavenCentral()
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.4.1'
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+        maven {
+            name 'IBMLocal'
+            url new File(m2repositoryPath).toURI()
+        }
+        jcenter()
+    }
+}

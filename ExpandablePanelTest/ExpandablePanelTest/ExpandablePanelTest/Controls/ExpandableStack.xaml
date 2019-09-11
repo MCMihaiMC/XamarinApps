@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Grid xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:controls="clr-namespace:ExpandablePanelTest.Controls"
+             mc:Ignorable="d"
+             x:Class="ExpandablePanelTest.Controls.ExpandableStack">
+    <Grid.RowDefinitions>
+        <RowDefinition Height="*" />
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="*" />
+    </Grid.ColumnDefinitions>
+    
+    <StackLayout HorizontalOptions="FillAndExpand" Padding="30" Grid.Row="0" Grid.Column="0">
+        <StackLayout x:Name="headerStack" Orientation="Horizontal" Margin="0,0,0,30">
+            <StackLayout.GestureRecognizers>
+                <TapGestureRecognizer Tapped="OnTapped"/>
+            </StackLayout.GestureRecognizers>
+            <Label x:Name="headerTitle" Text="Header title" TextColor="DarkBlue" FontSize="20" VerticalTextAlignment="Center" HorizontalOptions="StartAndExpand"/>
+            <Image x:Name="image" HorizontalOptions="EndAndExpand"/>
+        </StackLayout>
+        <StackLayout x:Name="detailsStack">
+        </StackLayout>
+    </StackLayout>
+</Grid>

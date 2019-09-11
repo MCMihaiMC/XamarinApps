@@ -1,0 +1,5089 @@
+<api
+  api-source="class-parse">
+  <package
+    name="tv.ustream.player"
+    jni-name="tv/ustream/player">
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="true"
+      name="a"
+      jni-signature="Ltv/ustream/player/a;"
+      static="false"
+      visibility="public">
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="a"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="java.lang.Double"
+        type-generic-aware="java.lang.Double"
+        jni-signature="Ljava/lang/Double;"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="b"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="java.lang.Integer"
+        type-generic-aware="java.lang.Integer"
+        jni-signature="Ljava/lang/Integer;"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="c"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="java.lang.Boolean"
+        type-generic-aware="java.lang.Boolean"
+        jni-signature="Ljava/lang/Boolean;"
+        visibility="public"
+        volatile="false" />
+    </class>
+  </package>
+  <package
+    name="tv.ustream.player.android"
+    jni-name="tv/ustream/player/android">
+    <interface
+      abstract="true"
+      deprecated="not deprecated"
+      final="false"
+      name="package-info"
+      jni-signature="Ltv/ustream/player/android/package-info;"
+      static="false"
+      visibility="" />
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ltv/ustream/player/android/internal/ui/AspectFrameLayout;"
+      extends="tv.ustream.player.android.internal.ui.AspectFrameLayout"
+      extends-generic-aware="tv.ustream.player.android.internal.ui.AspectFrameLayout"
+      final="false"
+      name="PlayerView"
+      jni-signature="Ltv/ustream/player/android/PlayerView;"
+      static="false"
+      visibility="public">
+      <implements
+        name="tv.ustream.player.api.PlayerView"
+        name-generic-aware="tv.ustream.player.api.PlayerView"
+        jni-type="Ltv/ustream/player/api/PlayerView;" />
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="PlayerView"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/Context;Landroid/util/AttributeSet;)V">
+        <parameter
+          name="p0"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+        <parameter
+          name="p1"
+          type="android.util.AttributeSet"
+          jni-type="Landroid/util/AttributeSet;" />
+      </constructor>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="resetAspectRatio"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="true"
+      name="SignatureUtil"
+      jni-signature="Ltv/ustream/player/android/SignatureUtil;"
+      static="false"
+      visibility="public">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="SignatureUtil"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="keyHashFromContext"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/Context;)Ljava/lang/String;">
+        <parameter
+          name="p0"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ltv/ustream/player/android/internal/player/UstreamPlayerFactoryBase;"
+      extends="tv.ustream.player.android.internal.player.UstreamPlayerFactoryBase"
+      extends-generic-aware="tv.ustream.player.android.internal.player.UstreamPlayerFactoryBase"
+      final="true"
+      name="UstreamPlayerFactory"
+      jni-signature="Ltv/ustream/player/android/UstreamPlayerFactory;"
+      static="false"
+      visibility="public">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="UstreamPlayerFactory"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;Landroidx/fragment/app/FragmentActivity;)V">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p1"
+          type="androidx.fragment.app.FragmentActivity"
+          jni-type="Landroidx/fragment/app/FragmentActivity;" />
+      </constructor>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="createUstreamPlayer"
+        native="false"
+        return="tv.ustream.player.api.UstreamPlayer"
+        jni-return="Ltv/ustream/player/api/UstreamPlayer;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;)Ltv/ustream/player/api/UstreamPlayer;">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+    </class>
+  </package>
+  <package
+    name="tv.ustream.player.android.internal.mediaplayer"
+    jni-name="tv/ustream/player/android/internal/mediaplayer">
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ltv/ustream/player/internal/MediaPlayerModuleBase;"
+      extends="tv.ustream.player.internal.MediaPlayerModuleBase"
+      extends-generic-aware="tv.ustream.player.internal.MediaPlayerModuleBase&lt;android.view.ViewGroup&gt;"
+      final="false"
+      name="MediaPlayerModuleAndroid"
+      jni-signature="Ltv/ustream/player/android/internal/mediaplayer/MediaPlayerModuleAndroid;"
+      static="false"
+      visibility="public">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="MediaPlayerModuleAndroid"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/Context;)V">
+        <parameter
+          name="p0"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+      </constructor>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="createPlayer"
+        native="false"
+        return="tv.ustream.player.internal.mediaplayer.IMediaPlayer&lt;android.view.ViewGroup&gt;"
+        jni-return="Ltv/ustream/player/internal/mediaplayer/IMediaPlayer&lt;Landroid/view/ViewGroup;&gt;;"
+        static="false"
+        synchronized="false"
+        visibility="protected"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ltv/ustream/ums/StreamStatClient;)Ltv/ustream/player/internal/mediaplayer/IMediaPlayer;">
+        <parameter
+          name="p0"
+          type="tv.ustream.ums.StreamStatClient"
+          jni-type="Ltv/ustream/ums/StreamStatClient;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getSupportedPlayerViewType"
+        native="false"
+        return="java.lang.Class&lt;? extends tv.ustream.player.api.PlayerView&gt;"
+        jni-return="Ljava/lang/Class&lt;+Ltv/ustream/player/api/PlayerView;&gt;;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/lang/Class;" />
+    </class>
+    <interface
+      abstract="true"
+      deprecated="not deprecated"
+      final="false"
+      name="package-info"
+      jni-signature="Ltv/ustream/player/android/internal/mediaplayer/package-info;"
+      static="false"
+      visibility="" />
+  </package>
+  <package
+    name="tv.ustream.player.android.internal.mediaplayer.exo"
+    jni-name="tv/ustream/player/android/internal/mediaplayer/exo">
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="AndroidExoMediaPlayer"
+      jni-signature="Ltv/ustream/player/android/internal/mediaplayer/exo/AndroidExoMediaPlayer;"
+      static="false"
+      visibility="">
+      <implements
+        name="tv.ustream.player.internal.mediaplayer.IMediaPlayer"
+        name-generic-aware="tv.ustream.player.internal.mediaplayer.IMediaPlayer&lt;android.view.ViewGroup&gt;"
+        jni-type="Ltv/ustream/player/internal/mediaplayer/IMediaPlayer&lt;Landroid/view/ViewGroup;&gt;;" />
+      <implements
+        name="com.google.android.exoplayer2.Player.EventListener"
+        name-generic-aware="com.google.android.exoplayer2.Player.EventListener"
+        jni-type="Lcom/google/android/exoplayer2/Player$EventListener;" />
+      <implements
+        name="com.google.android.exoplayer2.video.VideoRendererEventListener"
+        name-generic-aware="com.google.android.exoplayer2.video.VideoRendererEventListener"
+        jni-type="Lcom/google/android/exoplayer2/video/VideoRendererEventListener;" />
+      <implements
+        name="com.google.android.exoplayer2.audio.AudioRendererEventListener"
+        name-generic-aware="com.google.android.exoplayer2.audio.AudioRendererEventListener"
+        jni-type="Lcom/google/android/exoplayer2/audio/AudioRendererEventListener;" />
+      <implements
+        name="com.google.android.exoplayer2.text.TextOutput"
+        name-generic-aware="com.google.android.exoplayer2.text.TextOutput"
+        jni-type="Lcom/google/android/exoplayer2/text/TextOutput;" />
+      <implements
+        name="com.google.android.exoplayer2.metadata.MetadataOutput"
+        name-generic-aware="com.google.android.exoplayer2.metadata.MetadataOutput"
+        jni-type="Lcom/google/android/exoplayer2/metadata/MetadataOutput;" />
+      <implements
+        name="com.google.android.exoplayer2.source.MediaSourceEventListener"
+        name-generic-aware="com.google.android.exoplayer2.source.MediaSourceEventListener"
+        jni-type="Lcom/google/android/exoplayer2/source/MediaSourceEventListener;" />
+      <implements
+        name="tv.ustream.player.android.internal.mediaplayer.exo.DisplayConverter.Listener"
+        name-generic-aware="tv.ustream.player.android.internal.mediaplayer.exo.DisplayConverter.Listener"
+        jni-type="Ltv/ustream/player/android/internal/mediaplayer/exo/DisplayConverter$Listener;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="destroy"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="disableRenderer"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ltv/ustream/player/api/trackselection/MediaTrack$TrackType;)V">
+        <parameter
+          name="p0"
+          type="tv.ustream.player.api.trackselection.MediaTrack.TrackType"
+          jni-type="Ltv/ustream/player/api/trackselection/MediaTrack$TrackType;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="mute"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onAudioDecoderInitialized"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;JJ)V">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p1"
+          type="long"
+          jni-type="J" />
+        <parameter
+          name="p2"
+          type="long"
+          jni-type="J" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onAudioDisabled"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/google/android/exoplayer2/decoder/DecoderCounters;)V">
+        <parameter
+          name="p0"
+          type="com.google.android.exoplayer2.decoder.DecoderCounters"
+          jni-type="Lcom/google/android/exoplayer2/decoder/DecoderCounters;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onAudioEnabled"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/google/android/exoplayer2/decoder/DecoderCounters;)V">
+        <parameter
+          name="p0"
+          type="com.google.android.exoplayer2.decoder.DecoderCounters"
+          jni-type="Lcom/google/android/exoplayer2/decoder/DecoderCounters;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onAudioInputFormatChanged"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/google/android/exoplayer2/Format;)V">
+        <parameter
+          name="p0"
+          type="com.google.android.exoplayer2.Format"
+          jni-type="Lcom/google/android/exoplayer2/Format;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onAudioSessionId"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(I)V">
+        <parameter
+          name="p0"
+          type="int"
+          jni-type="I" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onAudioSinkUnderrun"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(IJJ)V">
+        <parameter
+          name="p0"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="p1"
+          type="long"
+          jni-type="J" />
+        <parameter
+          name="p2"
+          type="long"
+          jni-type="J" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onCues"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/util/List;)V">
+        <parameter
+          name="p0"
+          type="java.util.List&lt;com.google.android.exoplayer2.text.Cue&gt;"
+          jni-type="Ljava/util/List&lt;Lcom/google/android/exoplayer2/text/Cue;&gt;;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onDownstreamFormatChanged"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(ILcom/google/android/exoplayer2/source/MediaSource$MediaPeriodId;Lcom/google/android/exoplayer2/source/MediaSourceEventListener$MediaLoadData;)V">
+        <parameter
+          name="p0"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="p1"
+          type="com.google.android.exoplayer2.source.MediaSource.MediaPeriodId"
+          jni-type="Lcom/google/android/exoplayer2/source/MediaSource$MediaPeriodId;" />
+        <parameter
+          name="p2"
+          type="com.google.android.exoplayer2.source.MediaSourceEventListener.MediaLoadData"
+          jni-type="Lcom/google/android/exoplayer2/source/MediaSourceEventListener$MediaLoadData;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onDroppedFrames"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(IJ)V">
+        <parameter
+          name="p0"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="p1"
+          type="long"
+          jni-type="J" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onLoadCanceled"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(ILcom/google/android/exoplayer2/source/MediaSource$MediaPeriodId;Lcom/google/android/exoplayer2/source/MediaSourceEventListener$LoadEventInfo;Lcom/google/android/exoplayer2/source/MediaSourceEventListener$MediaLoadData;)V">
+        <parameter
+          name="p0"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="p1"
+          type="com.google.android.exoplayer2.source.MediaSource.MediaPeriodId"
+          jni-type="Lcom/google/android/exoplayer2/source/MediaSource$MediaPeriodId;" />
+        <parameter
+          name="p2"
+          type="com.google.android.exoplayer2.source.MediaSourceEventListener.LoadEventInfo"
+          jni-type="Lcom/google/android/exoplayer2/source/MediaSourceEventListener$LoadEventInfo;" />
+        <parameter
+          name="p3"
+          type="com.google.android.exoplayer2.source.MediaSourceEventListener.MediaLoadData"
+          jni-type="Lcom/google/android/exoplayer2/source/MediaSourceEventListener$MediaLoadData;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onLoadCompleted"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(ILcom/google/android/exoplayer2/source/MediaSource$MediaPeriodId;Lcom/google/android/exoplayer2/source/MediaSourceEventListener$LoadEventInfo;Lcom/google/android/exoplayer2/source/MediaSourceEventListener$MediaLoadData;)V">
+        <parameter
+          name="p0"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="p1"
+          type="com.google.android.exoplayer2.source.MediaSource.MediaPeriodId"
+          jni-type="Lcom/google/android/exoplayer2/source/MediaSource$MediaPeriodId;" />
+        <parameter
+          name="p2"
+          type="com.google.android.exoplayer2.source.MediaSourceEventListener.LoadEventInfo"
+          jni-type="Lcom/google/android/exoplayer2/source/MediaSourceEventListener$LoadEventInfo;" />
+        <parameter
+          name="p3"
+          type="com.google.android.exoplayer2.source.MediaSourceEventListener.MediaLoadData"
+          jni-type="Lcom/google/android/exoplayer2/source/MediaSourceEventListener$MediaLoadData;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onLoadError"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(ILcom/google/android/exoplayer2/source/MediaSource$MediaPeriodId;Lcom/google/android/exoplayer2/source/MediaSourceEventListener$LoadEventInfo;Lcom/google/android/exoplayer2/source/MediaSourceEventListener$MediaLoadData;Ljava/io/IOException;Z)V">
+        <parameter
+          name="p0"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="p1"
+          type="com.google.android.exoplayer2.source.MediaSource.MediaPeriodId"
+          jni-type="Lcom/google/android/exoplayer2/source/MediaSource$MediaPeriodId;" />
+        <parameter
+          name="p2"
+          type="com.google.android.exoplayer2.source.MediaSourceEventListener.LoadEventInfo"
+          jni-type="Lcom/google/android/exoplayer2/source/MediaSourceEventListener$LoadEventInfo;" />
+        <parameter
+          name="p3"
+          type="com.google.android.exoplayer2.source.MediaSourceEventListener.MediaLoadData"
+          jni-type="Lcom/google/android/exoplayer2/source/MediaSourceEventListener$MediaLoadData;" />
+        <parameter
+          name="p4"
+          type="java.io.IOException"
+          jni-type="Ljava/io/IOException;" />
+        <parameter
+          name="p5"
+          type="boolean"
+          jni-type="Z" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onLoadingChanged"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Z)V">
+        <parameter
+          name="p0"
+          type="boolean"
+          jni-type="Z" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onLoadStarted"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(ILcom/google/android/exoplayer2/source/MediaSource$MediaPeriodId;Lcom/google/android/exoplayer2/source/MediaSourceEventListener$LoadEventInfo;Lcom/google/android/exoplayer2/source/MediaSourceEventListener$MediaLoadData;)V">
+        <parameter
+          name="p0"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="p1"
+          type="com.google.android.exoplayer2.source.MediaSource.MediaPeriodId"
+          jni-type="Lcom/google/android/exoplayer2/source/MediaSource$MediaPeriodId;" />
+        <parameter
+          name="p2"
+          type="com.google.android.exoplayer2.source.MediaSourceEventListener.LoadEventInfo"
+          jni-type="Lcom/google/android/exoplayer2/source/MediaSourceEventListener$LoadEventInfo;" />
+        <parameter
+          name="p3"
+          type="com.google.android.exoplayer2.source.MediaSourceEventListener.MediaLoadData"
+          jni-type="Lcom/google/android/exoplayer2/source/MediaSourceEventListener$MediaLoadData;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onMediaPeriodCreated"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(ILcom/google/android/exoplayer2/source/MediaSource$MediaPeriodId;)V">
+        <parameter
+          name="p0"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="p1"
+          type="com.google.android.exoplayer2.source.MediaSource.MediaPeriodId"
+          jni-type="Lcom/google/android/exoplayer2/source/MediaSource$MediaPeriodId;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onMediaPeriodReleased"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(ILcom/google/android/exoplayer2/source/MediaSource$MediaPeriodId;)V">
+        <parameter
+          name="p0"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="p1"
+          type="com.google.android.exoplayer2.source.MediaSource.MediaPeriodId"
+          jni-type="Lcom/google/android/exoplayer2/source/MediaSource$MediaPeriodId;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onMetadata"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/google/android/exoplayer2/metadata/Metadata;)V">
+        <parameter
+          name="p0"
+          type="com.google.android.exoplayer2.metadata.Metadata"
+          jni-type="Lcom/google/android/exoplayer2/metadata/Metadata;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onPlaybackParametersChanged"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/google/android/exoplayer2/PlaybackParameters;)V">
+        <parameter
+          name="p0"
+          type="com.google.android.exoplayer2.PlaybackParameters"
+          jni-type="Lcom/google/android/exoplayer2/PlaybackParameters;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onPlayerError"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/google/android/exoplayer2/ExoPlaybackException;)V">
+        <parameter
+          name="p0"
+          type="com.google.android.exoplayer2.ExoPlaybackException"
+          jni-type="Lcom/google/android/exoplayer2/ExoPlaybackException;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onPlayerStateChanged"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(ZI)V">
+        <parameter
+          name="p0"
+          type="boolean"
+          jni-type="Z" />
+        <parameter
+          name="p1"
+          type="int"
+          jni-type="I" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onPositionDiscontinuity"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(I)V">
+        <parameter
+          name="p0"
+          type="int"
+          jni-type="I" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onReadingStarted"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(ILcom/google/android/exoplayer2/source/MediaSource$MediaPeriodId;)V">
+        <parameter
+          name="p0"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="p1"
+          type="com.google.android.exoplayer2.source.MediaSource.MediaPeriodId"
+          jni-type="Lcom/google/android/exoplayer2/source/MediaSource$MediaPeriodId;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onRenderedFirstFrame"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/view/Surface;)V">
+        <parameter
+          name="p0"
+          type="android.view.Surface"
+          jni-type="Landroid/view/Surface;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onRepeatModeChanged"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(I)V">
+        <parameter
+          name="p0"
+          type="int"
+          jni-type="I" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onSeekProcessed"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onShuffleModeEnabledChanged"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Z)V">
+        <parameter
+          name="p0"
+          type="boolean"
+          jni-type="Z" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onTextOutputAvailable"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/google/android/exoplayer2/text/TextOutput;)V">
+        <parameter
+          name="p0"
+          type="com.google.android.exoplayer2.text.TextOutput"
+          jni-type="Lcom/google/android/exoplayer2/text/TextOutput;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onTextOutputDestroyed"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onTimelineChanged"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/google/android/exoplayer2/Timeline;Ljava/lang/Object;I)V">
+        <parameter
+          name="p0"
+          type="com.google.android.exoplayer2.Timeline"
+          jni-type="Lcom/google/android/exoplayer2/Timeline;" />
+        <parameter
+          name="p1"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+        <parameter
+          name="p2"
+          type="int"
+          jni-type="I" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onTracksChanged"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/google/android/exoplayer2/source/TrackGroupArray;Lcom/google/android/exoplayer2/trackselection/TrackSelectionArray;)V">
+        <parameter
+          name="p0"
+          type="com.google.android.exoplayer2.source.TrackGroupArray"
+          jni-type="Lcom/google/android/exoplayer2/source/TrackGroupArray;" />
+        <parameter
+          name="p1"
+          type="com.google.android.exoplayer2.trackselection.TrackSelectionArray"
+          jni-type="Lcom/google/android/exoplayer2/trackselection/TrackSelectionArray;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onUpstreamDiscarded"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(ILcom/google/android/exoplayer2/source/MediaSource$MediaPeriodId;Lcom/google/android/exoplayer2/source/MediaSourceEventListener$MediaLoadData;)V">
+        <parameter
+          name="p0"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="p1"
+          type="com.google.android.exoplayer2.source.MediaSource.MediaPeriodId"
+          jni-type="Lcom/google/android/exoplayer2/source/MediaSource$MediaPeriodId;" />
+        <parameter
+          name="p2"
+          type="com.google.android.exoplayer2.source.MediaSourceEventListener.MediaLoadData"
+          jni-type="Lcom/google/android/exoplayer2/source/MediaSourceEventListener$MediaLoadData;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onVideoDecoderInitialized"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;JJ)V">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p1"
+          type="long"
+          jni-type="J" />
+        <parameter
+          name="p2"
+          type="long"
+          jni-type="J" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onVideoDisabled"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/google/android/exoplayer2/decoder/DecoderCounters;)V">
+        <parameter
+          name="p0"
+          type="com.google.android.exoplayer2.decoder.DecoderCounters"
+          jni-type="Lcom/google/android/exoplayer2/decoder/DecoderCounters;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onVideoEnabled"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/google/android/exoplayer2/decoder/DecoderCounters;)V">
+        <parameter
+          name="p0"
+          type="com.google.android.exoplayer2.decoder.DecoderCounters"
+          jni-type="Lcom/google/android/exoplayer2/decoder/DecoderCounters;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onVideoInputFormatChanged"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/google/android/exoplayer2/Format;)V">
+        <parameter
+          name="p0"
+          type="com.google.android.exoplayer2.Format"
+          jni-type="Lcom/google/android/exoplayer2/Format;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onVideoOutputAvailable"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/view/Surface;)V">
+        <parameter
+          name="p0"
+          type="android.view.Surface"
+          jni-type="Landroid/view/Surface;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onVideoOutputDestroyed"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onVideoSizeChanged"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(IIIF)V">
+        <parameter
+          name="p0"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="p1"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="p2"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="p3"
+          type="float"
+          jni-type="F" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="pause"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="removeDisplay"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="seek"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(J)V">
+        <parameter
+          name="p0"
+          type="long"
+          jni-type="J" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="selectDefaultTrack"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ltv/ustream/player/api/trackselection/MediaTrack$TrackType;)V">
+        <parameter
+          name="p0"
+          type="tv.ustream.player.api.trackselection.MediaTrack.TrackType"
+          jni-type="Ltv/ustream/player/api/trackselection/MediaTrack$TrackType;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="selectTrack"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ltv/ustream/player/internal/mediaplayer/TrackSelectionHolder;)V">
+        <parameter
+          name="p0"
+          type="tv.ustream.player.internal.mediaplayer.TrackSelectionHolder"
+          jni-type="Ltv/ustream/player/internal/mediaplayer/TrackSelectionHolder;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setDisplay"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/view/ViewGroup;)V">
+        <parameter
+          name="p0"
+          type="android.view.ViewGroup"
+          jni-type="Landroid/view/ViewGroup;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setDisplay"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="true"
+        synthetic="true"
+        jni-signature="(Ljava/lang/Object;)V">
+        <parameter
+          name="p0"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setResource"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ltv/ustream/player/internal/StreamHolder;)V">
+        <parameter
+          name="p0"
+          type="tv.ustream.player.internal.StreamHolder"
+          jni-type="Ltv/ustream/player/internal/StreamHolder;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="start"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="startBuffering"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="stop"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="unMute"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="AndroidExoMediaPlayer.1"
+      jni-signature="Ltv/ustream/player/android/internal/mediaplayer/exo/AndroidExoMediaPlayer$1;"
+      static="true"
+      visibility="" />
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="AndroidExoPlayerThreadSafe"
+      jni-signature="Ltv/ustream/player/android/internal/mediaplayer/exo/AndroidExoPlayerThreadSafe;"
+      static="false"
+      visibility="public">
+      <implements
+        name="tv.ustream.player.internal.mediaplayer.IMediaPlayer"
+        name-generic-aware="tv.ustream.player.internal.mediaplayer.IMediaPlayer&lt;android.view.ViewGroup&gt;"
+        jni-type="Ltv/ustream/player/internal/mediaplayer/IMediaPlayer&lt;Landroid/view/ViewGroup;&gt;;" />
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="AndroidExoPlayerThreadSafe"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/Context;Ltv/ustream/player/internal/mediaplayer/MediaPlayerCallback;Lcom/google/android/exoplayer2/upstream/BandwidthMeter$EventListener;Ltv/ustream/player/android/internal/mediaplayer/exo/DisplayConverter;)V">
+        <parameter
+          name="p0"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+        <parameter
+          name="p1"
+          type="tv.ustream.player.internal.mediaplayer.MediaPlayerCallback"
+          jni-type="Ltv/ustream/player/internal/mediaplayer/MediaPlayerCallback;" />
+        <parameter
+          name="p2"
+          type="com.google.android.exoplayer2.upstream.BandwidthMeter.EventListener"
+          jni-type="Lcom/google/android/exoplayer2/upstream/BandwidthMeter$EventListener;" />
+        <parameter
+          name="p3"
+          type="tv.ustream.player.android.internal.mediaplayer.exo.DisplayConverter"
+          jni-type="Ltv/ustream/player/android/internal/mediaplayer/exo/DisplayConverter;" />
+      </constructor>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="destroy"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="disableRenderer"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ltv/ustream/player/api/trackselection/MediaTrack$TrackType;)V">
+        <parameter
+          name="p0"
+          type="tv.ustream.player.api.trackselection.MediaTrack.TrackType"
+          jni-type="Ltv/ustream/player/api/trackselection/MediaTrack$TrackType;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="mute"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="pause"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="removeDisplay"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="seek"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(J)V">
+        <parameter
+          name="p0"
+          type="long"
+          jni-type="J" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="selectDefaultTrack"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ltv/ustream/player/api/trackselection/MediaTrack$TrackType;)V">
+        <parameter
+          name="p0"
+          type="tv.ustream.player.api.trackselection.MediaTrack.TrackType"
+          jni-type="Ltv/ustream/player/api/trackselection/MediaTrack$TrackType;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="selectTrack"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ltv/ustream/player/internal/mediaplayer/TrackSelectionHolder;)V">
+        <parameter
+          name="p0"
+          type="tv.ustream.player.internal.mediaplayer.TrackSelectionHolder"
+          jni-type="Ltv/ustream/player/internal/mediaplayer/TrackSelectionHolder;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setDisplay"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/view/ViewGroup;)V">
+        <parameter
+          name="p0"
+          type="android.view.ViewGroup"
+          jni-type="Landroid/view/ViewGroup;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setDisplay"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="true"
+        synthetic="true"
+        jni-signature="(Ljava/lang/Object;)V">
+        <parameter
+          name="p0"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setResource"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ltv/ustream/player/internal/StreamHolder;)V">
+        <parameter
+          name="p0"
+          type="tv.ustream.player.internal.StreamHolder"
+          jni-type="Ltv/ustream/player/internal/StreamHolder;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="start"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="startBuffering"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="stop"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="unMute"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Landroid/os/Handler;"
+      extends="android.os.Handler"
+      extends-generic-aware="android.os.Handler"
+      final="true"
+      name="AndroidExoPlayerThreadSafe.ExoPlayerMessageHandler"
+      jni-signature="Ltv/ustream/player/android/internal/mediaplayer/exo/AndroidExoPlayerThreadSafe$ExoPlayerMessageHandler;"
+      static="false"
+      visibility="">
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="handleMessage"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/os/Message;)V">
+        <parameter
+          name="p0"
+          type="android.os.Message"
+          jni-type="Landroid/os/Message;" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="DisplayConverter"
+      jni-signature="Ltv/ustream/player/android/internal/mediaplayer/exo/DisplayConverter;"
+      static="false"
+      visibility="public">
+      <implements
+        name="android.view.TextureView.SurfaceTextureListener"
+        name-generic-aware="android.view.TextureView.SurfaceTextureListener"
+        jni-type="Landroid/view/TextureView$SurfaceTextureListener;" />
+      <implements
+        name="android.view.SurfaceHolder.Callback"
+        name-generic-aware="android.view.SurfaceHolder.Callback"
+        jni-type="Landroid/view/SurfaceHolder$Callback;" />
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="DisplayConverter"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(II)V">
+        <parameter
+          name="p0"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="p1"
+          type="int"
+          jni-type="I" />
+      </constructor>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onSurfaceTextureAvailable"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/graphics/SurfaceTexture;II)V">
+        <parameter
+          name="p0"
+          type="android.graphics.SurfaceTexture"
+          jni-type="Landroid/graphics/SurfaceTexture;" />
+        <parameter
+          name="p1"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="p2"
+          type="int"
+          jni-type="I" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onSurfaceTextureDestroyed"
+        native="false"
+        return="boolean"
+        jni-return="Z"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/graphics/SurfaceTexture;)Z">
+        <parameter
+          name="p0"
+          type="android.graphics.SurfaceTexture"
+          jni-type="Landroid/graphics/SurfaceTexture;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onSurfaceTextureSizeChanged"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/graphics/SurfaceTexture;II)V">
+        <parameter
+          name="p0"
+          type="android.graphics.SurfaceTexture"
+          jni-type="Landroid/graphics/SurfaceTexture;" />
+        <parameter
+          name="p1"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="p2"
+          type="int"
+          jni-type="I" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onSurfaceTextureUpdated"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/graphics/SurfaceTexture;)V">
+        <parameter
+          name="p0"
+          type="android.graphics.SurfaceTexture"
+          jni-type="Landroid/graphics/SurfaceTexture;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="surfaceChanged"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/view/SurfaceHolder;III)V">
+        <parameter
+          name="p0"
+          type="android.view.SurfaceHolder"
+          jni-type="Landroid/view/SurfaceHolder;" />
+        <parameter
+          name="p1"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="p2"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="p3"
+          type="int"
+          jni-type="I" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="surfaceCreated"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/view/SurfaceHolder;)V">
+        <parameter
+          name="p0"
+          type="android.view.SurfaceHolder"
+          jni-type="Landroid/view/SurfaceHolder;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="surfaceDestroyed"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/view/SurfaceHolder;)V">
+        <parameter
+          name="p0"
+          type="android.view.SurfaceHolder"
+          jni-type="Landroid/view/SurfaceHolder;" />
+      </method>
+    </class>
+    <interface
+      abstract="true"
+      deprecated="not deprecated"
+      final="false"
+      name="DisplayConverter.Listener"
+      jni-signature="Ltv/ustream/player/android/internal/mediaplayer/exo/DisplayConverter$Listener;"
+      static="true"
+      visibility="">
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="onTextOutputAvailable"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/google/android/exoplayer2/text/TextOutput;)V">
+        <parameter
+          name="p0"
+          type="com.google.android.exoplayer2.text.TextOutput"
+          jni-type="Lcom/google/android/exoplayer2/text/TextOutput;" />
+      </method>
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="onTextOutputDestroyed"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="onVideoOutputAvailable"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/view/Surface;)V">
+        <parameter
+          name="p0"
+          type="android.view.Surface"
+          jni-type="Landroid/view/Surface;" />
+      </method>
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="onVideoOutputDestroyed"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+    </interface>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="true"
+      name="ExoLoggingUtil"
+      jni-signature="Ltv/ustream/player/android/internal/mediaplayer/exo/ExoLoggingUtil;"
+      static="false"
+      visibility="public">
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="logFormatSupport"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/google/android/exoplayer2/Format;I)Ljava/lang/String;">
+        <parameter
+          name="p0"
+          type="com.google.android.exoplayer2.Format"
+          jni-type="Lcom/google/android/exoplayer2/Format;" />
+        <parameter
+          name="p1"
+          type="int"
+          jni-type="I" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Landroid/os/Handler;"
+      extends="android.os.Handler"
+      extends-generic-aware="android.os.Handler"
+      final="false"
+      name="ExoProgressPoller"
+      jni-signature="Ltv/ustream/player/android/internal/mediaplayer/exo/ExoProgressPoller;"
+      static="false"
+      visibility="public">
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="handleMessage"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/os/Message;)V">
+        <parameter
+          name="p0"
+          type="android.os.Message"
+          jni-type="Landroid/os/Message;" />
+      </method>
+    </class>
+    <interface
+      abstract="true"
+      deprecated="not deprecated"
+      final="false"
+      name="ExoProgressPoller.ProgressPollMsg"
+      jni-signature="Ltv/ustream/player/android/internal/mediaplayer/exo/ExoProgressPoller$ProgressPollMsg;"
+      static="true"
+      visibility="">
+      <implements
+        name="java.lang.annotation.Annotation"
+        name-generic-aware="java.lang.annotation.Annotation"
+        jni-type="Ljava/lang/annotation/Annotation;" />
+    </interface>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ltv/ustream/player/internal/MediaPlayerModuleBase$StreamStatHelper;"
+      extends="tv.ustream.player.internal.MediaPlayerModuleBase.StreamStatHelper"
+      extends-generic-aware="tv.ustream.player.internal.MediaPlayerModuleBase.StreamStatHelper"
+      final="false"
+      name="ExoStreamStatHelper"
+      jni-signature="Ltv/ustream/player/android/internal/mediaplayer/exo/ExoStreamStatHelper;"
+      static="false"
+      visibility="public">
+      <implements
+        name="com.google.android.exoplayer2.upstream.BandwidthMeter.EventListener"
+        name-generic-aware="com.google.android.exoplayer2.upstream.BandwidthMeter.EventListener"
+        jni-type="Lcom/google/android/exoplayer2/upstream/BandwidthMeter$EventListener;" />
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="ExoStreamStatHelper"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ltv/ustream/ums/StreamStatClient;)V">
+        <parameter
+          name="p0"
+          type="tv.ustream.ums.StreamStatClient"
+          jni-type="Ltv/ustream/ums/StreamStatClient;" />
+      </constructor>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onBandwidthSample"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(IJJ)V">
+        <parameter
+          name="p0"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="p1"
+          type="long"
+          jni-type="J" />
+        <parameter
+          name="p2"
+          type="long"
+          jni-type="J" />
+      </method>
+    </class>
+    <interface
+      abstract="true"
+      deprecated="not deprecated"
+      final="false"
+      name="package-info"
+      jni-signature="Ltv/ustream/player/android/internal/mediaplayer/exo/package-info;"
+      static="false"
+      visibility="" />
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="true"
+      name="RendererBuilder"
+      jni-signature="Ltv/ustream/player/android/internal/mediaplayer/exo/RendererBuilder;"
+      static="false"
+      visibility="" />
+  </package>
+  <package
+    name="tv.ustream.player.android.internal.mediaplayer.exo.trackselection"
+    jni-name="tv/ustream/player/android/internal/mediaplayer/exo/trackselection">
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="ExoFormatBinder"
+      jni-signature="Ltv/ustream/player/android/internal/mediaplayer/exo/trackselection/ExoFormatBinder;"
+      static="false"
+      visibility="">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="ExoFormatBinder"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(IILtv/ustream/player/api/trackselection/MediaFormat;)V">
+        <parameter
+          name="p0"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="p1"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="p2"
+          type="tv.ustream.player.api.trackselection.MediaFormat"
+          jni-type="Ltv/ustream/player/api/trackselection/MediaFormat;" />
+      </constructor>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="equals"
+        native="false"
+        return="boolean"
+        jni-return="Z"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/Object;)Z">
+        <parameter
+          name="p0"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="hashCode"
+        native="false"
+        return="int"
+        jni-return="I"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()I" />
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="ExoFormatSupportInfoProvider"
+      jni-signature="Ltv/ustream/player/android/internal/mediaplayer/exo/trackselection/ExoFormatSupportInfoProvider;"
+      static="false"
+      visibility="public">
+      <implements
+        name="tv.ustream.player.api.trackselection.FormatSupportInfoProvider"
+        name-generic-aware="tv.ustream.player.api.trackselection.FormatSupportInfoProvider"
+        jni-type="Ltv/ustream/player/api/trackselection/FormatSupportInfoProvider;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="isSupported"
+        native="false"
+        return="boolean"
+        jni-return="Z"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ltv/ustream/player/api/trackselection/MediaFormat;)Z">
+        <parameter
+          name="p0"
+          type="tv.ustream.player.api.trackselection.MediaFormat"
+          jni-type="Ltv/ustream/player/api/trackselection/MediaFormat;" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="ExoTrackGroupBinder"
+      jni-signature="Ltv/ustream/player/android/internal/mediaplayer/exo/trackselection/ExoTrackGroupBinder;"
+      static="false"
+      visibility="public">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="ExoTrackGroupBinder"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+    </class>
+    <interface
+      abstract="true"
+      deprecated="not deprecated"
+      final="false"
+      name="package-info"
+      jni-signature="Ltv/ustream/player/android/internal/mediaplayer/exo/trackselection/package-info;"
+      static="false"
+      visibility="" />
+    <interface
+      abstract="true"
+      deprecated="not deprecated"
+      final="false"
+      name="TrackInfoProvider"
+      jni-signature="Ltv/ustream/player/android/internal/mediaplayer/exo/trackselection/TrackInfoProvider;"
+      static="false"
+      visibility="">
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="getTrackFormatSupport"
+        native="false"
+        return="int"
+        jni-return="I"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(III)I">
+        <parameter
+          name="p0"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="p1"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="p2"
+          type="int"
+          jni-type="I" />
+      </method>
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="getTrackGroupsForRenderer"
+        native="false"
+        return="com.google.android.exoplayer2.source.TrackGroupArray"
+        jni-return="Lcom/google/android/exoplayer2/source/TrackGroupArray;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(I)Lcom/google/android/exoplayer2/source/TrackGroupArray;">
+        <parameter
+          name="p0"
+          type="int"
+          jni-type="I" />
+      </method>
+    </interface>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="TrackSelectionConverter"
+      jni-signature="Ltv/ustream/player/android/internal/mediaplayer/exo/trackselection/TrackSelectionConverter;"
+      static="false"
+      visibility="public">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="TrackSelectionConverter"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ltv/ustream/player/android/internal/mediaplayer/exo/trackselection/TrackInfoProvider;)V">
+        <parameter
+          name="p0"
+          type="tv.ustream.player.android.internal.mediaplayer.exo.trackselection.TrackInfoProvider"
+          jni-type="Ltv/ustream/player/android/internal/mediaplayer/exo/trackselection/TrackInfoProvider;" />
+      </constructor>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="exoTrackTypeToTrackType"
+        native="false"
+        return="tv.ustream.player.api.trackselection.MediaTrack.TrackType"
+        jni-return="Ltv/ustream/player/api/trackselection/MediaTrack$TrackType;"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(I)Ltv/ustream/player/api/trackselection/MediaTrack$TrackType;">
+        <parameter
+          name="p0"
+          type="int"
+          jni-type="I" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="TrackSelectionConverter.1"
+      jni-signature="Ltv/ustream/player/android/internal/mediaplayer/exo/trackselection/TrackSelectionConverter$1;"
+      static="true"
+      visibility="" />
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="TrackSelectionHelper"
+      jni-signature="Ltv/ustream/player/android/internal/mediaplayer/exo/trackselection/TrackSelectionHelper;"
+      static="false"
+      visibility="public">
+      <implements
+        name="tv.ustream.player.android.internal.mediaplayer.exo.trackselection.TrackInfoProvider"
+        name-generic-aware="tv.ustream.player.android.internal.mediaplayer.exo.trackselection.TrackInfoProvider"
+        jni-type="Ltv/ustream/player/android/internal/mediaplayer/exo/trackselection/TrackInfoProvider;" />
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="TrackSelectionHelper"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="([Lcom/google/android/exoplayer2/Renderer;Lcom/google/android/exoplayer2/trackselection/DefaultTrackSelector;Lcom/google/android/exoplayer2/ui/TrackNameProvider;)V">
+        <parameter
+          name="p0"
+          type="com.google.android.exoplayer2.Renderer[]"
+          jni-type="[Lcom/google/android/exoplayer2/Renderer;" />
+        <parameter
+          name="p1"
+          type="com.google.android.exoplayer2.trackselection.DefaultTrackSelector"
+          jni-type="Lcom/google/android/exoplayer2/trackselection/DefaultTrackSelector;" />
+        <parameter
+          name="p2"
+          type="com.google.android.exoplayer2.ui.TrackNameProvider"
+          jni-type="Lcom/google/android/exoplayer2/ui/TrackNameProvider;" />
+      </constructor>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="currentMediaFormatForTrackType"
+        native="false"
+        return="tv.ustream.player.api.trackselection.MediaFormat"
+        jni-return="Ltv/ustream/player/api/trackselection/MediaFormat;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ltv/ustream/player/api/trackselection/MediaTrack$TrackType;)Ltv/ustream/player/api/trackselection/MediaFormat;">
+        <parameter
+          name="p0"
+          type="tv.ustream.player.api.trackselection.MediaTrack.TrackType"
+          jni-type="Ltv/ustream/player/api/trackselection/MediaTrack$TrackType;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="disableRenderer"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ltv/ustream/player/api/trackselection/MediaTrack$TrackType;)V">
+        <parameter
+          name="p0"
+          type="tv.ustream.player.api.trackselection.MediaTrack.TrackType"
+          jni-type="Ltv/ustream/player/api/trackselection/MediaTrack$TrackType;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getTrackFormatSupport"
+        native="false"
+        return="int"
+        jni-return="I"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(III)I">
+        <parameter
+          name="p0"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="p1"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="p2"
+          type="int"
+          jni-type="I" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getTrackGroupsForRenderer"
+        native="false"
+        return="com.google.android.exoplayer2.source.TrackGroupArray"
+        jni-return="Lcom/google/android/exoplayer2/source/TrackGroupArray;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(I)Lcom/google/android/exoplayer2/source/TrackGroupArray;">
+        <parameter
+          name="p0"
+          type="int"
+          jni-type="I" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onTracksChanged"
+        native="false"
+        return="quince.Pair&lt;tv.ustream.player.api.trackselection.MediaTrackGroupHolder, java.util.Map&lt;tv.ustream.player.api.trackselection.MediaTrack.TrackType, tv.ustream.player.api.trackselection.MediaTrackSelection&gt;&gt;"
+        jni-return="Lquince/Pair&lt;Ltv/ustream/player/api/trackselection/MediaTrackGroupHolder;Ljava/util/Map&lt;Ltv/ustream/player/api/trackselection/MediaTrack$TrackType;Ltv/ustream/player/api/trackselection/MediaTrackSelection;&gt;;&gt;;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/google/android/exoplayer2/trackselection/TrackSelectionArray;)Lquince/Pair;">
+        <parameter
+          name="p0"
+          type="com.google.android.exoplayer2.trackselection.TrackSelectionArray"
+          jni-type="Lcom/google/android/exoplayer2/trackselection/TrackSelectionArray;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="selectDefaultTrack"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ltv/ustream/player/api/trackselection/MediaTrack$TrackType;)V">
+        <parameter
+          name="p0"
+          type="tv.ustream.player.api.trackselection.MediaTrack.TrackType"
+          jni-type="Ltv/ustream/player/api/trackselection/MediaTrack$TrackType;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="selectTrack"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ltv/ustream/player/api/trackselection/MediaTrack;[I)V">
+        <parameter
+          name="p0"
+          type="tv.ustream.player.api.trackselection.MediaTrack"
+          jni-type="Ltv/ustream/player/api/trackselection/MediaTrack;" />
+        <parameter
+          name="p1"
+          type="int[]"
+          jni-type="[I" />
+      </method>
+    </class>
+  </package>
+  <package
+    name="tv.ustream.player.android.internal.player"
+    jni-name="tv/ustream/player/android/internal/player">
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="MainThreadExecutor"
+      jni-signature="Ltv/ustream/player/android/internal/player/MainThreadExecutor;"
+      static="false"
+      visibility="">
+      <implements
+        name="java.util.concurrent.Executor"
+        name-generic-aware="java.util.concurrent.Executor"
+        jni-type="Ljava/util/concurrent/Executor;" />
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="MainThreadExecutor"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="execute"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/Runnable;)V">
+        <parameter
+          name="p0"
+          type="java.lang.Runnable"
+          jni-type="Ljava/lang/Runnable;" />
+      </method>
+    </class>
+    <interface
+      abstract="true"
+      deprecated="not deprecated"
+      final="false"
+      name="package-info"
+      jni-signature="Ltv/ustream/player/android/internal/player/package-info;"
+      static="false"
+      visibility="" />
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="true"
+      name="PersistedPlayerInstance"
+      jni-signature="Ltv/ustream/player/android/internal/player/PersistedPlayerInstance;"
+      static="false"
+      visibility="" />
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Landroidx/fragment/app/Fragment;"
+      extends="androidx.fragment.app.Fragment"
+      extends-generic-aware="androidx.fragment.app.Fragment"
+      final="false"
+      name="PlayerFragment"
+      jni-signature="Ltv/ustream/player/android/internal/player/PlayerFragment;"
+      static="false"
+      visibility="public">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="PlayerFragment"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onCreate"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/os/Bundle;)V">
+        <parameter
+          name="p0"
+          type="android.os.Bundle"
+          jni-type="Landroid/os/Bundle;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onCreateView"
+        native="false"
+        return="android.view.View"
+        jni-return="Landroid/view/View;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;">
+        <parameter
+          name="p0"
+          type="android.view.LayoutInflater"
+          jni-type="Landroid/view/LayoutInflater;" />
+        <parameter
+          name="p1"
+          type="android.view.ViewGroup"
+          jni-type="Landroid/view/ViewGroup;" />
+        <parameter
+          name="p2"
+          type="android.os.Bundle"
+          jni-type="Landroid/os/Bundle;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onDestroy"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onStop"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ltv/ustream/ums/util/RpinRsidManager;"
+      extends="tv.ustream.ums.util.RpinRsidManager"
+      extends-generic-aware="tv.ustream.ums.util.RpinRsidManager"
+      final="false"
+      name="RsidRpinManagerAndroid"
+      jni-signature="Ltv/ustream/player/android/internal/player/RsidRpinManagerAndroid;"
+      static="false"
+      visibility="">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="RsidRpinManagerAndroid"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/Context;)V">
+        <parameter
+          name="p0"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+      </constructor>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getStoredRpin"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="false"
+        synchronized="false"
+        visibility="protected"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/lang/String;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="storeRpin"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="protected"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;)V">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="true"
+      name="UstreamPlayerAndroid"
+      jni-signature="Ltv/ustream/player/android/internal/player/UstreamPlayerAndroid;"
+      static="false"
+      visibility="">
+      <implements
+        name="tv.ustream.player.internal.PrivateUstreamPlayer"
+        name-generic-aware="tv.ustream.player.internal.PrivateUstreamPlayer"
+        jni-type="Ltv/ustream/player/internal/PrivateUstreamPlayer;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="attach"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="clearError"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="connect"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="destroy"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="detach"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="disableRenderer"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ltv/ustream/player/api/trackselection/MediaTrack$TrackType;)V">
+        <parameter
+          name="p0"
+          type="tv.ustream.player.api.trackselection.MediaTrack.TrackType"
+          jni-type="Ltv/ustream/player/api/trackselection/MediaTrack$TrackType;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="disconnect"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getMediaPlayerPlugin"
+        native="false"
+        return="tv.ustream.player.plugin.MediaPlayerModule"
+        jni-return="Ltv/ustream/player/plugin/MediaPlayerModule;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ltv/ustream/player/plugin/MediaPlayerModule;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="initWithContent"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ltv/ustream/content/ContentDescriptor;)V">
+        <parameter
+          name="p0"
+          type="tv.ustream.content.ContentDescriptor"
+          jni-type="Ltv/ustream/content/ContentDescriptor;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="initWithContent"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ltv/ustream/content/ContentDescriptor;Ltv/ustream/player/plugin/MediaPlayerModule;)V">
+        <parameter
+          name="p0"
+          type="tv.ustream.content.ContentDescriptor"
+          jni-type="Ltv/ustream/content/ContentDescriptor;" />
+        <parameter
+          name="p1"
+          type="tv.ustream.player.plugin.MediaPlayerModule"
+          jni-type="Ltv/ustream/player/plugin/MediaPlayerModule;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="isInitialized"
+        native="false"
+        return="boolean"
+        jni-return="Z"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Z" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="mute"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="pause"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="play"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="seek"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(J)V">
+        <parameter
+          name="p0"
+          type="long"
+          jni-type="J" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="selectDefaultTrack"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ltv/ustream/player/api/trackselection/MediaTrack$TrackType;)V">
+        <parameter
+          name="p0"
+          type="tv.ustream.player.api.trackselection.MediaTrack.TrackType"
+          jni-type="Ltv/ustream/player/api/trackselection/MediaTrack$TrackType;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="selectTrackForRenderer"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ltv/ustream/player/api/trackselection/MediaTrack;[I)V">
+        <parameter
+          name="p0"
+          type="tv.ustream.player.api.trackselection.MediaTrack"
+          jni-type="Ltv/ustream/player/api/trackselection/MediaTrack;" />
+        <parameter
+          name="p1"
+          type="int[]"
+          jni-type="[I" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setBirthDate"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/util/Calendar;)V">
+        <parameter
+          name="p0"
+          type="java.util.Calendar"
+          jni-type="Ljava/util/Calendar;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setBufferingListener"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ltv/ustream/player/api/BufferingListener;)V">
+        <parameter
+          name="p0"
+          type="tv.ustream.player.api.BufferingListener"
+          jni-type="Ltv/ustream/player/api/BufferingListener;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setErrorListener"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ltv/ustream/player/api/ErrorListener;)V">
+        <parameter
+          name="p0"
+          type="tv.ustream.player.api.ErrorListener"
+          jni-type="Ltv/ustream/player/api/ErrorListener;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setHash"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;)V">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setLogoClickListener"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ltv/ustream/player/api/LogoClickListener;)V">
+        <parameter
+          name="p0"
+          type="tv.ustream.player.api.LogoClickListener"
+          jni-type="Ltv/ustream/player/api/LogoClickListener;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setMediaTracksChangeListener"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ltv/ustream/player/api/MediaTrackChangeListener;)V">
+        <parameter
+          name="p0"
+          type="tv.ustream.player.api.MediaTrackChangeListener"
+          jni-type="Ltv/ustream/player/api/MediaTrackChangeListener;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setMetaDataListener"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ltv/ustream/player/api/MetaDataListener;)V">
+        <parameter
+          name="p0"
+          type="tv.ustream.player.api.MetaDataListener"
+          jni-type="Ltv/ustream/player/api/MetaDataListener;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setPassword"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;)V">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setPlayerListener"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ltv/ustream/player/api/PlayerListener;)V">
+        <parameter
+          name="p0"
+          type="tv.ustream.player.api.PlayerListener"
+          jni-type="Ltv/ustream/player/api/PlayerListener;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setPlayerView"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ltv/ustream/player/api/PlayerView;)V">
+        <parameter
+          name="p0"
+          type="tv.ustream.player.api.PlayerView"
+          jni-type="Ltv/ustream/player/api/PlayerView;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setPrivatePlayerApiListener"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ltv/ustream/player/internal/PrivatePlayerApiListener;)V">
+        <parameter
+          name="p0"
+          type="tv.ustream.player.internal.PrivatePlayerApiListener"
+          jni-type="Ltv/ustream/player/internal/PrivatePlayerApiListener;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setProgressListener"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ltv/ustream/player/api/ProgressListener;)V">
+        <parameter
+          name="p0"
+          type="tv.ustream.player.api.ProgressListener"
+          jni-type="Ltv/ustream/player/api/ProgressListener;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setSessionId"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;)V">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setViewerCountListener"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ltv/ustream/player/api/ViewerCountListener;)V">
+        <parameter
+          name="p0"
+          type="tv.ustream.player.api.ViewerCountListener"
+          jni-type="Ltv/ustream/player/api/ViewerCountListener;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="stop"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="unMute"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="UstreamPlayerAndroid.1"
+      jni-signature="Ltv/ustream/player/android/internal/player/UstreamPlayerAndroid$1;"
+      static="false"
+      visibility="">
+      <implements
+        name="tv.ustream.binding.ChangeListener"
+        name-generic-aware="tv.ustream.binding.ChangeListener&lt;tv.ustream.player.internal.PlayState&gt;"
+        jni-type="Ltv/ustream/binding/ChangeListener&lt;Ltv/ustream/player/internal/PlayState;&gt;;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onChange"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="true"
+        synthetic="true"
+        jni-signature="(Ljava/lang/Object;)V">
+        <parameter
+          name="p0"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onChange"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ltv/ustream/player/internal/PlayState;)V">
+        <parameter
+          name="p0"
+          type="tv.ustream.player.internal.PlayState"
+          jni-type="Ltv/ustream/player/internal/PlayState;" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="UstreamPlayerAndroid.10"
+      jni-signature="Ltv/ustream/player/android/internal/player/UstreamPlayerAndroid$10;"
+      static="false"
+      visibility="">
+      <implements
+        name="tv.ustream.binding.ChangeListener"
+        name-generic-aware="tv.ustream.binding.ChangeListener&lt;java.lang.Boolean&gt;"
+        jni-type="Ltv/ustream/binding/ChangeListener&lt;Ljava/lang/Boolean;&gt;;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onChange"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/Boolean;)V">
+        <parameter
+          name="p0"
+          type="java.lang.Boolean"
+          jni-type="Ljava/lang/Boolean;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onChange"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="true"
+        synthetic="true"
+        jni-signature="(Ljava/lang/Object;)V">
+        <parameter
+          name="p0"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="UstreamPlayerAndroid.11"
+      jni-signature="Ltv/ustream/player/android/internal/player/UstreamPlayerAndroid$11;"
+      static="false"
+      visibility="">
+      <implements
+        name="tv.ustream.binding.ChangeListener"
+        name-generic-aware="tv.ustream.binding.ChangeListener&lt;quince.Optional&lt;tv.ustream.player.api.trackselection.MediaTrackGroupHolder&gt;&gt;"
+        jni-type="Ltv/ustream/binding/ChangeListener&lt;Lquince/Optional&lt;Ltv/ustream/player/api/trackselection/MediaTrackGroupHolder;&gt;;&gt;;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onChange"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="true"
+        synthetic="true"
+        jni-signature="(Ljava/lang/Object;)V">
+        <parameter
+          name="p0"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onChange"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lquince/Optional;)V">
+        <parameter
+          name="p0"
+          type="quince.Optional&lt;tv.ustream.player.api.trackselection.MediaTrackGroupHolder&gt;"
+          jni-type="Lquince/Optional&lt;Ltv/ustream/player/api/trackselection/MediaTrackGroupHolder;&gt;;" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="UstreamPlayerAndroid.12"
+      jni-signature="Ltv/ustream/player/android/internal/player/UstreamPlayerAndroid$12;"
+      static="false"
+      visibility="">
+      <implements
+        name="tv.ustream.binding.ChangeListener"
+        name-generic-aware="tv.ustream.binding.ChangeListener&lt;quince.Optional&lt;tv.ustream.player.api.trackselection.MediaTrackSelection&gt;&gt;"
+        jni-type="Ltv/ustream/binding/ChangeListener&lt;Lquince/Optional&lt;Ltv/ustream/player/api/trackselection/MediaTrackSelection;&gt;;&gt;;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onChange"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="true"
+        synthetic="true"
+        jni-signature="(Ljava/lang/Object;)V">
+        <parameter
+          name="p0"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onChange"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lquince/Optional;)V">
+        <parameter
+          name="p0"
+          type="quince.Optional&lt;tv.ustream.player.api.trackselection.MediaTrackSelection&gt;"
+          jni-type="Lquince/Optional&lt;Ltv/ustream/player/api/trackselection/MediaTrackSelection;&gt;;" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="UstreamPlayerAndroid.13"
+      jni-signature="Ltv/ustream/player/android/internal/player/UstreamPlayerAndroid$13;"
+      static="false"
+      visibility="">
+      <implements
+        name="tv.ustream.binding.ChangeListener"
+        name-generic-aware="tv.ustream.binding.ChangeListener&lt;quince.Optional&lt;tv.ustream.player.api.trackselection.MediaTrackSelection&gt;&gt;"
+        jni-type="Ltv/ustream/binding/ChangeListener&lt;Lquince/Optional&lt;Ltv/ustream/player/api/trackselection/MediaTrackSelection;&gt;;&gt;;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onChange"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="true"
+        synthetic="true"
+        jni-signature="(Ljava/lang/Object;)V">
+        <parameter
+          name="p0"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onChange"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lquince/Optional;)V">
+        <parameter
+          name="p0"
+          type="quince.Optional&lt;tv.ustream.player.api.trackselection.MediaTrackSelection&gt;"
+          jni-type="Lquince/Optional&lt;Ltv/ustream/player/api/trackselection/MediaTrackSelection;&gt;;" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="UstreamPlayerAndroid.14"
+      jni-signature="Ltv/ustream/player/android/internal/player/UstreamPlayerAndroid$14;"
+      static="false"
+      visibility="">
+      <implements
+        name="tv.ustream.binding.ChangeListener"
+        name-generic-aware="tv.ustream.binding.ChangeListener&lt;quince.Optional&lt;tv.ustream.player.api.trackselection.MediaTrackSelection&gt;&gt;"
+        jni-type="Ltv/ustream/binding/ChangeListener&lt;Lquince/Optional&lt;Ltv/ustream/player/api/trackselection/MediaTrackSelection;&gt;;&gt;;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onChange"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="true"
+        synthetic="true"
+        jni-signature="(Ljava/lang/Object;)V">
+        <parameter
+          name="p0"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onChange"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lquince/Optional;)V">
+        <parameter
+          name="p0"
+          type="quince.Optional&lt;tv.ustream.player.api.trackselection.MediaTrackSelection&gt;"
+          jni-type="Lquince/Optional&lt;Ltv/ustream/player/api/trackselection/MediaTrackSelection;&gt;;" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="UstreamPlayerAndroid.15"
+      jni-signature="Ltv/ustream/player/android/internal/player/UstreamPlayerAndroid$15;"
+      static="false"
+      visibility="">
+      <implements
+        name="tv.ustream.binding.ChangeListener"
+        name-generic-aware="tv.ustream.binding.ChangeListener&lt;quince.Optional&lt;tv.ustream.player.api.trackselection.MediaFormat&gt;&gt;"
+        jni-type="Ltv/ustream/binding/ChangeListener&lt;Lquince/Optional&lt;Ltv/ustream/player/api/trackselection/MediaFormat;&gt;;&gt;;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onChange"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="true"
+        synthetic="true"
+        jni-signature="(Ljava/lang/Object;)V">
+        <parameter
+          name="p0"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onChange"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lquince/Optional;)V">
+        <parameter
+          name="p0"
+          type="quince.Optional&lt;tv.ustream.player.api.trackselection.MediaFormat&gt;"
+          jni-type="Lquince/Optional&lt;Ltv/ustream/player/api/trackselection/MediaFormat;&gt;;" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="UstreamPlayerAndroid.16"
+      jni-signature="Ltv/ustream/player/android/internal/player/UstreamPlayerAndroid$16;"
+      static="false"
+      visibility="">
+      <implements
+        name="tv.ustream.binding.ChangeListener"
+        name-generic-aware="tv.ustream.binding.ChangeListener&lt;quince.Optional&lt;tv.ustream.player.internal.mediaplayer.VideoSize&gt;&gt;"
+        jni-type="Ltv/ustream/binding/ChangeListener&lt;Lquince/Optional&lt;Ltv/ustream/player/internal/mediaplayer/VideoSize;&gt;;&gt;;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onChange"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="true"
+        synthetic="true"
+        jni-signature="(Ljava/lang/Object;)V">
+        <parameter
+          name="p0"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onChange"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lquince/Optional;)V">
+        <parameter
+          name="p0"
+          type="quince.Optional&lt;tv.ustream.player.internal.mediaplayer.VideoSize&gt;"
+          jni-type="Lquince/Optional&lt;Ltv/ustream/player/internal/mediaplayer/VideoSize;&gt;;" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="UstreamPlayerAndroid.17"
+      jni-signature="Ltv/ustream/player/android/internal/player/UstreamPlayerAndroid$17;"
+      static="false"
+      visibility="">
+      <implements
+        name="tv.ustream.binding.ChangeListener"
+        name-generic-aware="tv.ustream.binding.ChangeListener&lt;quince.Optional&lt;java.util.List&lt;tv.ustream.ums.InboundUmsMessage.Logo&gt;&gt;&gt;"
+        jni-type="Ltv/ustream/binding/ChangeListener&lt;Lquince/Optional&lt;Ljava/util/List&lt;Ltv/ustream/ums/InboundUmsMessage$Logo;&gt;;&gt;;&gt;;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onChange"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="true"
+        synthetic="true"
+        jni-signature="(Ljava/lang/Object;)V">
+        <parameter
+          name="p0"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onChange"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lquince/Optional;)V">
+        <parameter
+          name="p0"
+          type="quince.Optional&lt;java.util.List&lt;tv.ustream.ums.InboundUmsMessage.Logo&gt;&gt;"
+          jni-type="Lquince/Optional&lt;Ljava/util/List&lt;Ltv/ustream/ums/InboundUmsMessage$Logo;&gt;;&gt;;" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="UstreamPlayerAndroid.2"
+      jni-signature="Ltv/ustream/player/android/internal/player/UstreamPlayerAndroid$2;"
+      static="false"
+      visibility="">
+      <implements
+        name="tv.ustream.binding.ChangeListener"
+        name-generic-aware="tv.ustream.binding.ChangeListener&lt;tv.ustream.player.internal.ErrorState&gt;"
+        jni-type="Ltv/ustream/binding/ChangeListener&lt;Ltv/ustream/player/internal/ErrorState;&gt;;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onChange"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="true"
+        synthetic="true"
+        jni-signature="(Ljava/lang/Object;)V">
+        <parameter
+          name="p0"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onChange"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ltv/ustream/player/internal/ErrorState;)V">
+        <parameter
+          name="p0"
+          type="tv.ustream.player.internal.ErrorState"
+          jni-type="Ltv/ustream/player/internal/ErrorState;" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="UstreamPlayerAndroid.3"
+      jni-signature="Ltv/ustream/player/android/internal/player/UstreamPlayerAndroid$3;"
+      static="false"
+      visibility="">
+      <implements
+        name="tv.ustream.binding.ChangeListener"
+        name-generic-aware="tv.ustream.binding.ChangeListener&lt;quince.Optional&lt;java.lang.Long&gt;&gt;"
+        jni-type="Ltv/ustream/binding/ChangeListener&lt;Lquince/Optional&lt;Ljava/lang/Long;&gt;;&gt;;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onChange"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="true"
+        synthetic="true"
+        jni-signature="(Ljava/lang/Object;)V">
+        <parameter
+          name="p0"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onChange"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lquince/Optional;)V">
+        <parameter
+          name="p0"
+          type="quince.Optional&lt;java.lang.Long&gt;"
+          jni-type="Lquince/Optional&lt;Ljava/lang/Long;&gt;;" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="UstreamPlayerAndroid.4"
+      jni-signature="Ltv/ustream/player/android/internal/player/UstreamPlayerAndroid$4;"
+      static="false"
+      visibility="">
+      <implements
+        name="tv.ustream.binding.ChangeListener"
+        name-generic-aware="tv.ustream.binding.ChangeListener&lt;quince.Optional&lt;java.lang.Long&gt;&gt;"
+        jni-type="Ltv/ustream/binding/ChangeListener&lt;Lquince/Optional&lt;Ljava/lang/Long;&gt;;&gt;;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onChange"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="true"
+        synthetic="true"
+        jni-signature="(Ljava/lang/Object;)V">
+        <parameter
+          name="p0"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onChange"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lquince/Optional;)V">
+        <parameter
+          name="p0"
+          type="quince.Optional&lt;java.lang.Long&gt;"
+          jni-type="Lquince/Optional&lt;Ljava/lang/Long;&gt;;" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="UstreamPlayerAndroid.5"
+      jni-signature="Ltv/ustream/player/android/internal/player/UstreamPlayerAndroid$5;"
+      static="false"
+      visibility="">
+      <implements
+        name="tv.ustream.binding.ChangeListener"
+        name-generic-aware="tv.ustream.binding.ChangeListener&lt;quince.Optional&lt;tv.ustream.player.api.MetaData&gt;&gt;"
+        jni-type="Ltv/ustream/binding/ChangeListener&lt;Lquince/Optional&lt;Ltv/ustream/player/api/MetaData;&gt;;&gt;;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onChange"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="true"
+        synthetic="true"
+        jni-signature="(Ljava/lang/Object;)V">
+        <parameter
+          name="p0"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onChange"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lquince/Optional;)V">
+        <parameter
+          name="p0"
+          type="quince.Optional&lt;tv.ustream.player.api.MetaData&gt;"
+          jni-type="Lquince/Optional&lt;Ltv/ustream/player/api/MetaData;&gt;;" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="UstreamPlayerAndroid.6"
+      jni-signature="Ltv/ustream/player/android/internal/player/UstreamPlayerAndroid$6;"
+      static="false"
+      visibility="">
+      <implements
+        name="tv.ustream.binding.ChangeListener"
+        name-generic-aware="tv.ustream.binding.ChangeListener&lt;quince.Optional&lt;tv.ustream.player.api.ChatAndSocialStreamData&gt;&gt;"
+        jni-type="Ltv/ustream/binding/ChangeListener&lt;Lquince/Optional&lt;Ltv/ustream/player/api/ChatAndSocialStreamData;&gt;;&gt;;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onChange"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="true"
+        synthetic="true"
+        jni-signature="(Ljava/lang/Object;)V">
+        <parameter
+          name="p0"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onChange"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lquince/Optional;)V">
+        <parameter
+          name="p0"
+          type="quince.Optional&lt;tv.ustream.player.api.ChatAndSocialStreamData&gt;"
+          jni-type="Lquince/Optional&lt;Ltv/ustream/player/api/ChatAndSocialStreamData;&gt;;" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="UstreamPlayerAndroid.7"
+      jni-signature="Ltv/ustream/player/android/internal/player/UstreamPlayerAndroid$7;"
+      static="false"
+      visibility="">
+      <implements
+        name="tv.ustream.binding.ChangeListener"
+        name-generic-aware="tv.ustream.binding.ChangeListener&lt;org.joda.time.Duration&gt;"
+        jni-type="Ltv/ustream/binding/ChangeListener&lt;Lorg/joda/time/Duration;&gt;;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onChange"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="true"
+        synthetic="true"
+        jni-signature="(Ljava/lang/Object;)V">
+        <parameter
+          name="p0"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onChange"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lorg/joda/time/Duration;)V">
+        <parameter
+          name="p0"
+          type="org.joda.time.Duration"
+          jni-type="Lorg/joda/time/Duration;" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="UstreamPlayerAndroid.8"
+      jni-signature="Ltv/ustream/player/android/internal/player/UstreamPlayerAndroid$8;"
+      static="false"
+      visibility="">
+      <implements
+        name="tv.ustream.binding.ChangeListener"
+        name-generic-aware="tv.ustream.binding.ChangeListener&lt;quince.Optional&lt;org.joda.time.Duration&gt;&gt;"
+        jni-type="Ltv/ustream/binding/ChangeListener&lt;Lquince/Optional&lt;Lorg/joda/time/Duration;&gt;;&gt;;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onChange"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="true"
+        synthetic="true"
+        jni-signature="(Ljava/lang/Object;)V">
+        <parameter
+          name="p0"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onChange"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lquince/Optional;)V">
+        <parameter
+          name="p0"
+          type="quince.Optional&lt;org.joda.time.Duration&gt;"
+          jni-type="Lquince/Optional&lt;Lorg/joda/time/Duration;&gt;;" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="UstreamPlayerAndroid.9"
+      jni-signature="Ltv/ustream/player/android/internal/player/UstreamPlayerAndroid$9;"
+      static="false"
+      visibility="">
+      <implements
+        name="tv.ustream.binding.ChangeListener"
+        name-generic-aware="tv.ustream.binding.ChangeListener&lt;java.lang.Boolean&gt;"
+        jni-type="Ltv/ustream/binding/ChangeListener&lt;Ljava/lang/Boolean;&gt;;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onChange"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/Boolean;)V">
+        <parameter
+          name="p0"
+          type="java.lang.Boolean"
+          jni-type="Ljava/lang/Boolean;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onChange"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="true"
+        synthetic="true"
+        jni-signature="(Ljava/lang/Object;)V">
+        <parameter
+          name="p0"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+      </method>
+    </class>
+    <class
+      abstract="true"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="UstreamPlayerFactoryBase"
+      jni-signature="Ltv/ustream/player/android/internal/player/UstreamPlayerFactoryBase;"
+      static="false"
+      visibility="public">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="UstreamPlayerFactoryBase"
+        static="false"
+        visibility="protected"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;ILandroidx/fragment/app/FragmentActivity;)V">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p1"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="p2"
+          type="androidx.fragment.app.FragmentActivity"
+          jni-type="Landroidx/fragment/app/FragmentActivity;" />
+      </constructor>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="createPlayer"
+        native="false"
+        return="tv.ustream.player.internal.PrivateUstreamPlayer"
+        jni-return="Ltv/ustream/player/internal/PrivateUstreamPlayer;"
+        static="false"
+        synchronized="false"
+        visibility="protected"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;Ljava/lang/String;)Ltv/ustream/player/internal/PrivateUstreamPlayer;">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p1"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+    </class>
+  </package>
+  <package
+    name="tv.ustream.player.android.internal.ui"
+    jni-name="tv/ustream/player/android/internal/ui">
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Landroid/widget/FrameLayout;"
+      extends="android.widget.FrameLayout"
+      extends-generic-aware="android.widget.FrameLayout"
+      final="false"
+      name="AspectFrameLayout"
+      jni-signature="Ltv/ustream/player/android/internal/ui/AspectFrameLayout;"
+      static="false"
+      visibility="public">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="AspectFrameLayout"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/Context;)V">
+        <parameter
+          name="p0"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+      </constructor>
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="AspectFrameLayout"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/Context;Landroid/util/AttributeSet;)V">
+        <parameter
+          name="p0"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+        <parameter
+          name="p1"
+          type="android.util.AttributeSet"
+          jni-type="Landroid/util/AttributeSet;" />
+      </constructor>
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="AspectFrameLayout"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/Context;Landroid/util/AttributeSet;I)V">
+        <parameter
+          name="p0"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+        <parameter
+          name="p1"
+          type="android.util.AttributeSet"
+          jni-type="Landroid/util/AttributeSet;" />
+        <parameter
+          name="p2"
+          type="int"
+          jni-type="I" />
+      </constructor>
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="AspectFrameLayout"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/Context;Landroid/util/AttributeSet;II)V">
+        <parameter
+          name="p0"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+        <parameter
+          name="p1"
+          type="android.util.AttributeSet"
+          jni-type="Landroid/util/AttributeSet;" />
+        <parameter
+          name="p2"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="p3"
+          type="int"
+          jni-type="I" />
+      </constructor>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onMeasure"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="protected"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(II)V">
+        <parameter
+          name="p0"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="p1"
+          type="int"
+          jni-type="I" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="reset"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setAspectRatio"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(D)V">
+        <parameter
+          name="p0"
+          type="double"
+          jni-type="D" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="LogoHandler"
+      jni-signature="Ltv/ustream/player/android/internal/ui/LogoHandler;"
+      static="false"
+      visibility="public">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="LogoHandler"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ltv/ustream/player/android/internal/ui/LogoLayout;)V">
+        <parameter
+          name="p0"
+          type="tv.ustream.player.android.internal.ui.LogoLayout"
+          jni-type="Ltv/ustream/player/android/internal/ui/LogoLayout;" />
+      </constructor>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setLogoClickListener"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ltv/ustream/player/api/LogoClickListener;)V">
+        <parameter
+          name="p0"
+          type="tv.ustream.player.api.LogoClickListener"
+          jni-type="Ltv/ustream/player/api/LogoClickListener;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="updateLogos"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lquince/Optional;)V">
+        <parameter
+          name="p0"
+          type="quince.Optional&lt;java.util.List&lt;tv.ustream.ums.InboundUmsMessage.Logo&gt;&gt;"
+          jni-type="Lquince/Optional&lt;Ljava/util/List&lt;Ltv/ustream/ums/InboundUmsMessage$Logo;&gt;;&gt;;" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Landroid/os/AsyncTask;"
+      extends="android.os.AsyncTask"
+      extends-generic-aware="android.os.AsyncTask&lt;java.lang.Void, java.lang.Void, quince.Optional&lt;android.graphics.Bitmap&gt;&gt;"
+      final="false"
+      name="LogoHandler.1"
+      jni-signature="Ltv/ustream/player/android/internal/ui/LogoHandler$1;"
+      static="false"
+      visibility="">
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="doInBackground"
+        native="false"
+        return="java.lang.Object"
+        jni-return="Ljava/lang/Object;"
+        static="false"
+        synchronized="false"
+        visibility="protected"
+        bridge="true"
+        synthetic="true"
+        jni-signature="([Ljava/lang/Object;)Ljava/lang/Object;">
+        <parameter
+          name="p0"
+          type="java.lang.Object[]"
+          jni-type="[Ljava/lang/Object;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="doInBackground"
+        native="false"
+        return="quince.Optional&lt;android.graphics.Bitmap&gt;"
+        jni-return="Lquince/Optional&lt;Landroid/graphics/Bitmap;&gt;;"
+        static="false"
+        synchronized="false"
+        visibility="protected"
+        bridge="false"
+        synthetic="false"
+        jni-signature="([Ljava/lang/Void;)Lquince/Optional;">
+        <parameter
+          name="p0"
+          type="java.lang.Void..."
+          jni-type="[Ljava/lang/Void;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onPostExecute"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="protected"
+        bridge="true"
+        synthetic="true"
+        jni-signature="(Ljava/lang/Object;)V">
+        <parameter
+          name="p0"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onPostExecute"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="protected"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lquince/Optional;)V">
+        <parameter
+          name="p0"
+          type="quince.Optional&lt;android.graphics.Bitmap&gt;"
+          jni-type="Lquince/Optional&lt;Landroid/graphics/Bitmap;&gt;;" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="LogoHandler.2"
+      jni-signature="Ltv/ustream/player/android/internal/ui/LogoHandler$2;"
+      static="false"
+      visibility="">
+      <implements
+        name="android.view.View.OnClickListener"
+        name-generic-aware="android.view.View.OnClickListener"
+        jni-type="Landroid/view/View$OnClickListener;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onClick"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/view/View;)V">
+        <parameter
+          name="p0"
+          type="android.view.View"
+          jni-type="Landroid/view/View;" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="true"
+      name="LogoHandler.NoOpLogoClickListener"
+      jni-signature="Ltv/ustream/player/android/internal/ui/LogoHandler$NoOpLogoClickListener;"
+      static="true"
+      visibility="private">
+      <implements
+        name="tv.ustream.player.api.LogoClickListener"
+        name-generic-aware="tv.ustream.player.api.LogoClickListener"
+        jni-type="Ltv/ustream/player/api/LogoClickListener;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onLogoClick"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/net/URI;)V">
+        <parameter
+          name="p0"
+          type="java.net.URI"
+          jni-type="Ljava/net/URI;" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Landroid/widget/RelativeLayout;"
+      extends="android.widget.RelativeLayout"
+      extends-generic-aware="android.widget.RelativeLayout"
+      final="false"
+      name="LogoLayout"
+      jni-signature="Ltv/ustream/player/android/internal/ui/LogoLayout;"
+      static="false"
+      visibility="public">
+      <implements
+        name="android.view.ViewGroup.OnHierarchyChangeListener"
+        name-generic-aware="android.view.ViewGroup.OnHierarchyChangeListener"
+        jni-type="Landroid/view/ViewGroup$OnHierarchyChangeListener;" />
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="LogoLayout"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/Context;Landroid/util/AttributeSet;)V">
+        <parameter
+          name="p0"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+        <parameter
+          name="p1"
+          type="android.util.AttributeSet"
+          jni-type="Landroid/util/AttributeSet;" />
+      </constructor>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="alignLogo"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(IIII)V">
+        <parameter
+          name="p0"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="p1"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="p2"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="p3"
+          type="int"
+          jni-type="I" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onChildViewAdded"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/view/View;Landroid/view/View;)V">
+        <parameter
+          name="p0"
+          type="android.view.View"
+          jni-type="Landroid/view/View;" />
+        <parameter
+          name="p1"
+          type="android.view.View"
+          jni-type="Landroid/view/View;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onChildViewRemoved"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/view/View;Landroid/view/View;)V">
+        <parameter
+          name="p0"
+          type="android.view.View"
+          jni-type="Landroid/view/View;" />
+        <parameter
+          name="p1"
+          type="android.view.View"
+          jni-type="Landroid/view/View;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onLayout"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="protected"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(ZIIII)V">
+        <parameter
+          name="p0"
+          type="boolean"
+          jni-type="Z" />
+        <parameter
+          name="p1"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="p2"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="p3"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="p4"
+          type="int"
+          jni-type="I" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onSizeChanged"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="protected"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(IIII)V">
+        <parameter
+          name="p0"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="p1"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="p2"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="p3"
+          type="int"
+          jni-type="I" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setLogoImage"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(ILandroid/graphics/Bitmap;)V">
+        <parameter
+          name="p0"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="p1"
+          type="android.graphics.Bitmap"
+          jni-type="Landroid/graphics/Bitmap;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setOnLogoClickListener"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(ILandroid/view/View$OnClickListener;)V">
+        <parameter
+          name="p0"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="p1"
+          type="android.view.View.OnClickListener"
+          jni-type="Landroid/view/View$OnClickListener;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="toggleLogo"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(IZ)V">
+        <parameter
+          name="p0"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="p1"
+          type="boolean"
+          jni-type="Z" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="LogoLayout.Logo"
+      jni-signature="Ltv/ustream/player/android/internal/ui/LogoLayout$Logo;"
+      static="true"
+      visibility="private" />
+    <interface
+      abstract="true"
+      deprecated="not deprecated"
+      final="false"
+      name="package-info"
+      jni-signature="Ltv/ustream/player/android/internal/ui/package-info;"
+      static="false"
+      visibility="" />
+  </package>
+  <package
+    name="tv.ustream.player.android.internal.util"
+    jni-name="tv/ustream/player/android/internal/util">
+    <interface
+      abstract="true"
+      deprecated="not deprecated"
+      final="false"
+      name="package-info"
+      jni-signature="Ltv/ustream/player/android/internal/util/package-info;"
+      static="false"
+      visibility="" />
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="true"
+      name="UserAgentAndroid"
+      jni-signature="Ltv/ustream/player/android/internal/util/UserAgentAndroid;"
+      static="false"
+      visibility="public">
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="build"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/Context;)Ljava/lang/String;">
+        <parameter
+          name="p0"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="build"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;">
+        <parameter
+          name="p0"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+        <parameter
+          name="p1"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+    </class>
+  </package>
+</api>

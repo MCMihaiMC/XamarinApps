@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ibm.playersdk.sample">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:name="ibm.playersdk.sample.App"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <meta-data
+            android:name="com.google.android.gms.ads.AD_MANAGER_APP"
+            android:value="true"/>
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".simpleplayer.SimplePlayerActivity"
+            android:label="@string/simple_player_activity" />
+
+        <activity
+            android:name=".newsfeed.NewsfeedActivity"
+            android:label="@string/newsfeed_activity" />
+
+        <activity
+            android:name=".subtitle.SubtitleActivity"
+            android:label="@string/subtitle_activity" />
+
+        <activity
+            android:name=".multiaudio.MultiAudioActivity"
+            android:label="@string/multiaudio_activity" />
+
+        <activity
+            android:name=".locks.PasswordLockActivity"
+            android:label="@string/passwordlock_activity" />
+
+        <!-- HashLockActivity is singleTask only because upon a successful login CustomTab will start this
+         activity with the hash object. And the login callback can not provide the content descriptor.-->
+        <activity
+            android:name=".locks.HashLockActivity"
+            android:launchMode="singleTask"
+            android:label="@string/hash_lock_activity" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+
+                <data android:scheme="sdk-sample"/>
+                <data android:host="sdk-sample"/>
+                <data android:path="/hashlock/pass"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".locks.GeoLocksActivity"
+            android:label="@string/geoLocks_activity" />
+
+        <activity
+            android:name=".offline.OfflineActivity"
+            android:label="@string/offline_activity" />
+
+        <activity
+            android:name=".fullfeatured.FullfeaturedActivity"
+            android:label="@string/fullfeatured_activity" />
+
+        <activity
+            android:name=".dfp.PrerollActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="@string/preroll_activity" />
+
+        <activity
+            android:name=".dfp.MidrollActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="@string/midroll_activity" />
+
+    </application>
+
+</manifest>

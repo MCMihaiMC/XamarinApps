@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="playersdk_custom_logo" type="id"/>
+    <item name="playersdk_logo_layout" type="id"/>
+    <item name="playersdk_render_view" type="id"/>
+    <item name="playersdk_subtitle_view" type="id"/>
+    <string name="playersdk_logo_custom_content_description">Custom logo</string>
+    <declare-styleable name="playersdk_AspectFrameLayout">
+        <attr format="integer" name="playersdk_width_ratio"/>
+        <attr format="integer" name="playersdk_height_ratio"/>
+    </declare-styleable>
+</resources>

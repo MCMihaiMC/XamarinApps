@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">IBM PlayerSDK Sample</string>
+
+    <string name="simple_player_activity">Simple Player Activity</string>
+    <string name="newsfeed_activity">Newsfeed Activity</string>
+    <string name="subtitle_activity">Subtitle Activity</string>
+    <string name="multiaudio_activity">Multi Audio Activity</string>
+    <string name="passwordlock_activity">PasswordLock Activity</string>
+    <string name="geoLocks_activity">GeoLocks Activity</string>
+    <string name="hash_lock_activity">HashLock Activity</string>
+    <string name="offline_activity">Offline Activity</string>
+    <string name="fullfeatured_activity">Full-featured Activity</string>
+    <string name="preroll_activity">DFP Pre-roll Activity</string>
+    <string name="midroll_activity">DFP Mid-roll Activity</string>
+
+    <string name="error_offline_title">Offline</string>
+
+    <string name="sample_error_network">Please check your internet connection and try again.</string>
+
+    <string name="sample_hashlock_dialog_title">Credentials required</string>
+    <string name="input_user_hint">User (guest)</string>
+    <string name="input_password_hint">Password (guest)</string>
+
+    <string name="sample_password_dialog_title">Password required</string>
+    <string name="sample_enter_password">Enter password</string>
+
+    <string name="sample_error_no_content_msg">No playable content available</string>
+    <string name="sample_error_no_such_content_msg">The requested content does not exist</string>
+    <string name="sample_error_password_lock_msg">The requested content is password protected</string>
+    <string name="sample_error_age_lock_msg">The requested content is restricted by age</string>
+    <string name="sample_error_geo_lock_msg">This content is not available in your area.</string>
+    <string name="sample_error_hashlocked_content_msg">Missing hash parameter, or the provided hash code is invalid or expired.</string>
+    <string name="sample_error_restricted_content_msg">This content is not available due to restrictions.</string>
+    <string name="sample_error_invalid_player_sdk_key">Invalid Ustream Player SDK Key, you are not authorized for playback.</string>
+    <string name="sample_error_viewer_hour_limit_lock_msg">No more viewers allowed at this moment. (limit reached)</string>
+    <string name="sample_unknown_reject">You are not authorized to watch this stream</string>
+
+    <string name="subtitle_selector_title">Captions</string>
+    <string name="language_selector_title">Audio language</string>
+
+    <string name="hashlock_auth_button_title">Log In</string>
+
+    <string name="label_geolock_usa_blacklist">GeoLocked video USA blacklisted</string>
+    <string name="label_geolock_usa_whitelist">GeoLocked video USA whitelisted</string>
+    <string name="label_my_custom_view">My Custom view</string>
+    <string name="label_mute">Mute</string>
+    <string name="label_buffering">Buffering</string>
+    <string name="label_initialized">Initialized</string>
+    <string name="label_playing">Playing</string>
+    <string name="label_paused">Paused</string>
+    <string name="label_stopped">Stopped</string>
+    <string name="accessibility_list_blog_image">Newsfeed non video content image.</string>
+</resources>

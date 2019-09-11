@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:controls="clr-namespace:ExpandablePanelTest.Controls"
+             mc:Ignorable="d"
+             x:Class="ExpandablePanelTest.ExpandableLayoutPage">
+    <ContentPage.Content>
+        <ScrollView Padding="8, 10">
+            <StackLayout Spacing="0">
+                <controls:ExpandableStack HeaderTitle="Expandable layout" 
+                                  StackCollapsed="False"
+                                          ControlName0="Control 1 Test 1"
+                                          ControlName1="Control 1 Test 2"
+                                          ControlName2="Control 1 Test 3"  
+                                          ControlName3="Control 1 Test 4"  
+                                          NumberOfControls="4" />
+                <controls:ExpandableStack HeaderTitle="Second layout"
+                                      StackCollapsed="True"
+                                          ControlName0="Control 2 Test 1"
+                                          ControlName1="Control 2 Test 2" 
+                                          NumberOfControls="2" />
+                <controls:ExpandableStack HeaderTitle="Third layout"
+                                      StackCollapsed="True" 
+                                          ControlName0="Control 3 Test 1"
+                                          ControlName1="Control 3 Test 1"
+                                          ControlName2="Control 3 Test 1"
+                                          NumberOfControls="3" />
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

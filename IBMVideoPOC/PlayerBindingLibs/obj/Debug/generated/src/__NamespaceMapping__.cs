@@ -1,0 +1,6 @@
+[assembly:global::Android.Runtime.NamespaceMapping (Java = "tv.ustream.player.android", Managed="TV.Ustream.Player.Android")]
+[assembly:global::Android.Runtime.NamespaceMapping (Java = "tv.ustream.player.android.internal.mediaplayer.exo", Managed="TV.Ustream.Player.Android.Internal.Mediaplayer.Exo")]
+[assembly:global::Android.Runtime.NamespaceMapping (Java = "tv.ustream.player.android.internal.mediaplayer.exo.trackselection", Managed="TV.Ustream.Player.Android.Internal.Mediaplayer.Exo.Trackselection")]
+[assembly:global::Android.Runtime.NamespaceMapping (Java = "tv.ustream.player.android.internal.player", Managed="TV.Ustream.Player.Android.Internal.Player")]
+[assembly:global::Android.Runtime.NamespaceMapping (Java = "tv.ustream.player.android.internal.ui", Managed="TV.Ustream.Player.Android.Internal.UI")]
+[assembly:global::Android.Runtime.NamespaceMapping (Java = "tv.ustream.player.android.internal.util", Managed="TV.Ustream.Player.Android.Internal.Util")]

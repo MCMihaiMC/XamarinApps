@@ -1,0 +1,9 @@
+C:\dev\XamarinApps\MihaisPieShopMobile\MihaisPieShopMobile.Core\bin\Debug\netstandard2.0\MihaisPieShopMobile.Core.deps.json
+C:\dev\XamarinApps\MihaisPieShopMobile\MihaisPieShopMobile.Core\bin\Debug\netstandard2.0\MihaisPieShopMobile.Core.dll
+C:\dev\XamarinApps\MihaisPieShopMobile\MihaisPieShopMobile.Core\bin\Debug\netstandard2.0\MihaisPieShopMobile.Core.pdb
+C:\dev\XamarinApps\MihaisPieShopMobile\MihaisPieShopMobile.Core\obj\Debug\netstandard2.0\MihaisPieShopMobile.Core.csproj.CoreCompileInputs.cache
+C:\dev\XamarinApps\MihaisPieShopMobile\MihaisPieShopMobile.Core\obj\Debug\netstandard2.0\MihaisPieShopMobile.Core.AssemblyInfoInputs.cache
+C:\dev\XamarinApps\MihaisPieShopMobile\MihaisPieShopMobile.Core\obj\Debug\netstandard2.0\MihaisPieShopMobile.Core.AssemblyInfo.cs
+C:\dev\XamarinApps\MihaisPieShopMobile\MihaisPieShopMobile.Core\obj\Debug\netstandard2.0\MihaisPieShopMobile.Core.dll
+C:\dev\XamarinApps\MihaisPieShopMobile\MihaisPieShopMobile.Core\obj\Debug\netstandard2.0\MihaisPieShopMobile.Core.pdb
+C:\dev\XamarinApps\MihaisPieShopMobile\MihaisPieShopMobile.Core\obj\Debug\netstandard2.0\MihaisPieShopMobile.Core.csprojAssemblyReference.cache

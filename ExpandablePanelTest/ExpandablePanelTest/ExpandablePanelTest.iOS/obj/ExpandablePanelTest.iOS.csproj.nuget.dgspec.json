@@ -1,0 +1,135 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\dev\\XamarinApps\\ExpandablePanelTest\\ExpandablePanelTest\\ExpandablePanelTest.iOS\\ExpandablePanelTest.iOS.csproj": {}
+  },
+  "projects": {
+    "C:\\dev\\XamarinApps\\ExpandablePanelTest\\ExpandablePanelTest\\ExpandablePanelTest.iOS\\ExpandablePanelTest.iOS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\dev\\XamarinApps\\ExpandablePanelTest\\ExpandablePanelTest\\ExpandablePanelTest.iOS\\ExpandablePanelTest.iOS.csproj",
+        "projectName": "ExpandablePanelTest.iOS",
+        "projectPath": "C:\\dev\\XamarinApps\\ExpandablePanelTest\\ExpandablePanelTest\\ExpandablePanelTest.iOS\\ExpandablePanelTest.iOS.csproj",
+        "packagesPath": "C:\\Users\\mihai\\.nuget\\packages\\",
+        "outputPath": "C:\\dev\\XamarinApps\\ExpandablePanelTest\\ExpandablePanelTest\\ExpandablePanelTest.iOS\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mihai\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "xamarinios10"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "xamarinios10": {
+            "projectReferences": {
+              "C:\\dev\\XamarinApps\\ExpandablePanelTest\\ExpandablePanelTest\\ExpandablePanelTest\\ExpandablePanelTest.csproj": {
+                "projectPath": "C:\\dev\\XamarinApps\\ExpandablePanelTest\\ExpandablePanelTest\\ExpandablePanelTest\\ExpandablePanelTest.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "xamarinios10": {
+          "dependencies": {
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.1.0.555618, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\dev\\XamarinApps\\ExpandablePanelTest\\ExpandablePanelTest\\ExpandablePanelTest\\ExpandablePanelTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\dev\\XamarinApps\\ExpandablePanelTest\\ExpandablePanelTest\\ExpandablePanelTest\\ExpandablePanelTest.csproj",
+        "projectName": "ExpandablePanelTest",
+        "projectPath": "C:\\dev\\XamarinApps\\ExpandablePanelTest\\ExpandablePanelTest\\ExpandablePanelTest\\ExpandablePanelTest.csproj",
+        "packagesPath": "C:\\Users\\mihai\\.nuget\\packages\\",
+        "outputPath": "C:\\dev\\XamarinApps\\ExpandablePanelTest\\ExpandablePanelTest\\ExpandablePanelTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mihai\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "DynamicStackLayout": {
+              "target": "Package",
+              "version": "[2017.12.4, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.1.0.555618, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

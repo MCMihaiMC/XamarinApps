@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:controls="clr-namespace:ExpandablePanelTest.Controls"
+             mc:Ignorable="d"
+             x:Class="ExpandablePanelTest.MainControlPage">
+    <ContentPage.Content>
+        <StackLayout Margin="10,20">
+            <Label Text="Xamarin User Survey"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"/>
+
+            <controls:FormEntry Text="Bind first name here" Title="First Name:"/>
+
+            <controls:FormEntry Text="Bind last name here" Title="Last Name:"/>
+
+            <controls:FormEntry Text="Bind company here" Title="Company:"/>
+
+            <!--<Grid HorizontalOptions="FillAndExpand">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Label Grid.Row="0" Text="First Name:" FontAttributes="Bold"/>
+                <Entry Grid.Row="1" Text="Bind first name here"/>
+            </Grid>
+
+            <Grid HorizontalOptions="FillAndExpand">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Label Grid.Row="0" Text="Last Name:" FontAttributes="Bold"/>
+                <Entry Grid.Row="1" Text="Bind last name here"/>
+            </Grid>
+
+            <Grid HorizontalOptions="FillAndExpand">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Label Grid.Row="0" Text="Company:" FontAttributes="Bold"/>
+                <Entry Grid.Row="1" Text="Bind company here"/>
+            </Grid>-->
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

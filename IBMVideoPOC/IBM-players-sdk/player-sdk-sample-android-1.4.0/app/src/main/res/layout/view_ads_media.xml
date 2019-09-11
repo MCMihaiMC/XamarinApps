@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+       xmlns:tools="http://schemas.android.com/tools"
+       xmlns:app="http://schemas.android.com/apk/res-auto"
+       tools:layout_width="match_parent"
+       tools:layout_height="match_parent"
+       tools:parentTag="androidx.coordinatorlayout.widget.CoordinatorLayout">
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/player_background">
+
+        <ibm.playersdk.ui.components.controls.TouchArea
+            android:id="@+id/playback_controls_touch_area"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <RelativeLayout
+            android:id="@+id/player_frame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            >
+            <tv.ustream.player.android.plugin.ads.AdsPlayerView
+                android:id="@+id/player_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:layout_height="300dip"
+                android:layout_centerInParent="true"
+                tools:background="#880000"/>
+
+            <ibm.playersdk.ui.components.controls.DecoratorView
+                android:id="@+id/playback_controls_decorator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/player_view"
+                tools:background="#22ff0000"
+                />
+
+
+            <ibm.playersdk.ui.components.controls.PlayPause
+                android:id="@+id/play_pause_control"
+                android:layout_width="72dip"
+                android:layout_height="72dip"
+                android:padding="12dp"
+                android:layout_centerInParent="true"
+                tools:background="#88000088"
+                />
+
+        </RelativeLayout>
+
+        <ibm.playersdk.sample.dfp.AdsMediaView.AdsComponentView
+            android:id="@+id/ads_component"
+            android:layout_width="72dip"
+            android:layout_height="72dip"
+            android:padding="12dp"
+            android:layout_gravity="center"
+            />
+
+        <ibm.playersdk.ui.components.controls.PlayerToolbar
+            android:id="@+id/playback_controls_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_anchor="@id/player_frame"
+            app:layout_anchorGravity="top|center_horizontal"
+            android:layout_gravity="top"/>
+
+        <ibm.playersdk.ui.components.controls.ExtendedSeekBar
+            android:id="@+id/seek_bar_control"
+            android:layout_width="match_parent"
+            android:layout_height="56dip"
+            android:layout_marginLeft="8dip"
+            android:layout_marginRight="8dip"
+            android:gravity="center"
+            android:orientation="horizontal"
+            app:layout_anchor="@id/player_frame"
+            app:layout_anchorGravity="bottom|center_horizontal"
+            android:layout_gravity="bottom"
+            tools:background="#88008800"/>
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</merge>
