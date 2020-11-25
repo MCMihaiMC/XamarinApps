@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "ST+sjLczfOVwgS6xpT0UUf38zlLSp7LSSA4NKI45lbPOYL+ladKdXRfT9j80rk+yckTaKj68qd1+caOOTEhUCg==",
+  "success": true,
+  "projectFilePath": "D:\\Examples\\MyExamples\\Xamarin\\XamarinShellLearn\\ShellLearn\\ShellLearn\\ShellLearn.iOS\\ShellLearn.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mihai.muntean\\.nuget\\packages\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "C:\\Users\\mihai.muntean\\.nuget\\packages\\xamarin.forms\\4.8.0.1451\\xamarin.forms.4.8.0.1451.nupkg.sha512"
+  ],
+  "logs": []
+}
